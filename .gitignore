@@ -45,3 +45,13 @@ $RECYCLE.BIN/
 Network Trash Folder
 Temporary Items
 .apdisk
+/CAI_Master/CAI_Master/CAI_Master/app/viewmodels/users.js
+/CAI_Master/CAI_Master/CAI_Master/app/viewmodels/sites.js
+/CAI_Master/CAI_Master/CAI_Master/app/viewmodels/eventTypes.js
+/CAI_Master/CAI_Master/CAI_Master/app/viewmodels/bidsources.js
+*.config
+*.lock
+*.ide
+*.ide-shm
+*.ide-wal
+*.suo

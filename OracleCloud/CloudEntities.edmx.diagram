@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="ca40f01a83a74b76a69ecc7ed415c98c" Name="Diagram1">
+        <EntityTypeShape EntityType="V3Model.AccountsReceivable" Width="1.5" PointX="5.25" PointY="88.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="V3Model.AdditionalProduct" Width="1.5" PointX="7.5" PointY="162.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="V3Model.AgeRanx" Width="1.5" PointX="5.25" PointY="96.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="V3Model.BatchEvent" Width="1.5" PointX="5.25" PointY="99.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="V3Model.BidderQuoteDetail" Width="1.5" PointX="25.25" PointY="185.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="V3Model.BidderQuote" Width="1.5" PointX="23" PointY="184.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="V3Model.BudgetedYard" Width="1.5" PointX="15" PointY="228.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="V3Model.cnfc" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="V3Model.Company" Width="1.5" PointX="3" PointY="175" IsExpanded="true" />
+        <EntityTypeShape EntityType="V3Model.CompanyBidStatus" Width="1.5" PointX="8.25" PointY="182.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="V3Model.CompanyOrderStatus" Width="1.5" PointX="5.25" PointY="105.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="V3Model.CompanyProjectProductStatus" Width="1.5" PointX="5.25" PointY="108.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="V3Model.CompanyProjectStatus" Width="1.5" PointX="5.25" PointY="111.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="V3Model.CompanyQuoteStatus" Width="1.5" PointX="5.25" PointY="114" IsExpanded="true" />
+        <EntityTypeShape EntityType="V3Model.CompanyUser" Width="1.5" PointX="7.5" PointY="219.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="V3Model.CompetitorPlant" Width="1.5" PointX="12.75" PointY="174.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="V3Model.Competitor" Width="1.5" PointX="10.5" PointY="219.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="V3Model.Contact" Width="1.5" PointX="12.75" PointY="225.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="V3Model.ContactNote" Width="1.5" PointX="15" PointY="244.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="V3Model.CreditStatus" Width="1.5" PointX="5.25" PointY="125.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="V3Model.CustomerEvent" Width="1.5" PointX="21.75" PointY="191.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="V3Model.CustomerEventType" Width="1.5" PointX="5.25" PointY="129" IsExpanded="true" />
+        <EntityTypeShape EntityType="V3Model.CustomerType" Width="1.5" PointX="5.25" PointY="131.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="V3Model.DeletedItem" Width="1.5" PointX="2.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="V3Model.DeviationType" Width="1.5" PointX="2.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="V3Model.Division" Width="1.5" PointX="5.25" PointY="134.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="V3Model.Employee" Width="1.5" PointX="5.25" PointY="142.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="V3Model.ErrorLog" Width="1.5" PointX="5.25" PointY="139.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="V3Model.EventFrequency" Width="1.5" PointX="5.25" PointY="150.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="V3Model.EventStatu" Width="1.5" PointX="19.5" PointY="176.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="V3Model.FieldConfig" Width="1.5" PointX="5.25" PointY="153.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="V3Model.LinesOfBusiness" Width="1.5" PointX="5.25" PointY="157" IsExpanded="true" />
+        <EntityTypeShape EntityType="V3Model.Locations_Divisions_Lookup" Width="1.5" PointX="8.25" PointY="254.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="V3Model.Login" Width="1.5" PointX="7.5" PointY="258.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="V3Model.LostReason" Width="1.5" PointX="5.25" PointY="161" IsExpanded="true" />
+        <EntityTypeShape EntityType="V3Model.ManagersSalesman" Width="1.5" PointX="7.5" PointY="260.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="V3Model.OracleExport" Width="1.5" PointX="5.25" PointY="164.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="V3Model.OrderDetail" Width="1.5" PointX="24" PointY="199.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="V3Model.Order" Width="1.5" PointX="17.75" PointY="183.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="V3Model.PaymentTerm" Width="1.5" PointX="5.25" PointY="167.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="V3Model.Plant" Width="1.5" PointX="7.5" PointY="152.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="V3Model.PlantLinesOfBusiness" Width="1.5" PointX="9.75" PointY="155.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="V3Model.PlantProductPrice" Width="1.5" PointX="10.75" PointY="185.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="V3Model.PlantProduct" Width="1.5" PointX="12.75" PointY="181.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="V3Model.PourSchedule" Width="1.5" PointX="21" PointY="202.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="V3Model.Product" Width="1.5" PointX="7.5" PointY="211.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="V3Model.ProductLineLineOfBusiness" Width="1.5" PointX="7.5" PointY="168.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="V3Model.ProductLine" Width="1.5" PointX="5.25" PointY="177.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="V3Model.ProductTemplate" Width="1.5" PointX="9.75" PointY="225.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="V3Model.ProductType" Width="1.5" PointX="10.5" PointY="209.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="V3Model.ProductUsage" Width="1.5" PointX="10.5" PointY="181.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="V3Model.ProjectBidderCharge" Width="1.5" PointX="23" PointY="180.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="V3Model.ProjectBidderNote" Width="1.5" PointX="23" PointY="223" IsExpanded="true" />
+        <EntityTypeShape EntityType="V3Model.ProjectBidderProduct" Width="1.5" PointX="15.5" PointY="178.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="V3Model.ProjectBidder" Width="1.5" PointX="20.75" PointY="182.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="V3Model.ProjectBidderStatus" Width="1.5" PointX="18.5" PointY="190.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="V3Model.ProjectCharge" Width="1.5" PointX="8.25" PointY="177.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="V3Model.ProjectChargeType" Width="1.5" PointX="6" PointY="174" IsExpanded="true" />
+        <EntityTypeShape EntityType="V3Model.ProjectDistance" Width="1.5" PointX="17.75" PointY="180" IsExpanded="true" />
+        <EntityTypeShape EntityType="V3Model.ProjectHistorySummary" Width="1.5" PointX="9.75" PointY="204.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="V3Model.ProjectMapQtyRanx" Width="2.875" PointX="5.25" PointY="187" IsExpanded="true" />
+        <EntityTypeShape EntityType="V3Model.ProjectNote" Width="1.5" PointX="17.75" PointY="236" IsExpanded="true" />
+        <EntityTypeShape EntityType="V3Model.ProjectProduct" Width="1.5" PointX="15.75" PointY="193.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="V3Model.Project" Width="1.5" PointX="15.5" PointY="208.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="V3Model.ProjectType" Width="1.5" PointX="5.25" PointY="190.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="V3Model.ProspectNote" Width="1.5" PointX="9.75" PointY="228.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="V3Model.ProspectQuantity" Width="1.5" PointX="9.75" PointY="200.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="V3Model.ProspectRegion" Width="1.5" PointX="9.75" PointY="215.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="V3Model.Prospect" Width="1.5" PointX="7.5" PointY="192.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="V3Model.PSI" Width="1.5" PointX="4.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="V3Model.QuoteDetail" Width="1.5" PointX="21" PointY="198.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="V3Model.QuoteGuid" Width="1.5" PointX="4.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="V3Model.Quote" Width="1.5" PointX="26" PointY="215.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="V3Model.QuoteSection" Width="1.5" PointX="6.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="V3Model.QuoteStandardClaus" Width="1.5" PointX="28.25" PointY="205.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="V3Model.QuoteStatus" Width="1.5" PointX="23.75" PointY="219.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="V3Model.QuoteSurcharge" Width="1.5" PointX="28.25" PointY="211.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="V3Model.QuoteType" Width="1.5" PointX="5.25" PointY="194.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="V3Model.Role" Width="1.5" PointX="8.25" PointY="264.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="V3Model.SalespersonContact" Width="1.5" PointX="18" PointY="244.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="V3Model.SalesPersonRegion" Width="1.5" PointX="12.75" PointY="208" IsExpanded="true" />
+        <EntityTypeShape EntityType="V3Model.ScheduleDetail" Width="1.5" PointX="23.25" PointY="202.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="V3Model.ScheduleItem" Width="1.5" PointX="20.25" PointY="206.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="V3Model.Schedule" Width="1.5" PointX="18" PointY="206.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="V3Model.Source" Width="1.5" PointX="5.25" PointY="198.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="V3Model.SourceSystem" Width="1.5" PointX="0.75" PointY="183" IsExpanded="true" />
+        <EntityTypeShape EntityType="V3Model.StandardClaus" Width="1.5" PointX="13.75" PointY="184.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="V3Model.Status" Width="1.5" PointX="6" PointY="182.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="V3Model.Surcharge" Width="1.5" PointX="12.75" PointY="198.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="V3Model.TemplatedProduct" Width="1.5" PointX="18.75" PointY="193.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="V3Model.TemplatedProductType" Width="1.5" PointX="12.75" PointY="203" IsExpanded="true" />
+        <EntityTypeShape EntityType="V3Model.Terms_Discount" Width="1.5" PointX="5.25" PointY="202" IsExpanded="true" />
+        <EntityTypeShape EntityType="V3Model.TimeCalendar" Width="1.5" PointX="0.75" PointY="6.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="V3Model.TQS_bbty" Width="1.5" PointX="5.25" PointY="205.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="V3Model.TQS_chlc" Width="1.5" PointX="2.75" PointY="6.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="V3Model.TQS_cnfc" Width="1.5" PointX="4.75" PointY="6.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="V3Model.TQS_encd" Width="1.5" PointX="5.25" PointY="209.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="V3Model.TQS_envr" Width="1.5" PointX="5.25" PointY="213.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="V3Model.TQS_mtac" Width="1.5" PointX="5.25" PointY="216.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="V3Model.TQS_mtbt" Width="1.5" PointX="5.25" PointY="220" IsExpanded="true" />
+        <EntityTypeShape EntityType="V3Model.TQS_mtlc" Width="1.5" PointX="5.25" PointY="231.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="V3Model.TQS_mtlp" Width="1.5" PointX="5.25" PointY="224" IsExpanded="true" />
+        <EntityTypeShape EntityType="V3Model.TQS_mxca" Width="1.5" PointX="5.25" PointY="227.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="V3Model.TQS_mxcc" Width="1.5" PointX="5.25" PointY="242.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="V3Model.TQS_prjp" Width="1.5" PointX="5.25" PointY="273.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="V3Model.TQS_work" Width="1.5" PointX="5.25" PointY="246.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="V3Model.Unit_Of_Measure" Width="1.5" PointX="5.25" PointY="249.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="V3Model.UserRole" Width="1.5" PointX="10.5" PointY="259.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="V3Model.User" Width="1.5" PointX="5.25" PointY="255" IsExpanded="true" />
+        <EntityTypeShape EntityType="V3Model.usersDivision" Width="1.5" PointX="10.5" PointY="256.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="V3Model.ValueAdd" Width="1.5" PointX="12.75" PointY="194" IsExpanded="true" />
+        <EntityTypeShape EntityType="V3Model.VehicleType" Width="1.5" PointX="5.25" PointY="266.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="V3Model.ZoneCode" Width="1.5" PointX="5.25" PointY="270.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="V3Model.consumersprojectimport" Width="1.5" PointX="6.75" PointY="6.75" IsExpanded="true" />
+        <AssociationConnector Association="V3Model.FK_AccountsReceivable_Companies" ManuallyRouted="false" />
+        <AssociationConnector Association="V3Model.FK_AdditionalProducts_Companies" ManuallyRouted="false" />
+        <AssociationConnector Association="V3Model.FK_AdditionalProducts_Divisions" ManuallyRouted="false" />
+        <AssociationConnector Association="V3Model.FK_AdditionalProducts_Product" ManuallyRouted="false" />
+        <AssociationConnector Association="V3Model.FK_AgeRanges_Companies" ManuallyRouted="false" />
+        <AssociationConnector Association="V3Model.FK_BatchEvents_Companies" ManuallyRouted="false" />
+        <AssociationConnector Association="V3Model.FK_BidderQuoteDetails_BidderQuotes" ManuallyRouted="false" />
+        <AssociationConnector Association="V3Model.FK_BidderQuotes_ProjectBidders" ManuallyRouted="false" />
+        <AssociationConnector Association="V3Model.FK_BudgetedYards_Users" ManuallyRouted="false" />
+        <AssociationConnector Association="V3Model.FK_BudgetedYards_ValueAdd" ManuallyRouted="false" />
+        <AssociationConnector Association="V3Model.FK_Companies_QuoteTypes" ManuallyRouted="false" />
+        <AssociationConnector Association="V3Model.FK_Companies_SourceSystem" ManuallyRouted="false" />
+        <AssociationConnector Association="V3Model.FK_Companies_Unit_Of_Measure" ManuallyRouted="false" />
+        <AssociationConnector Association="V3Model.FK_CompanyBidStatuses_Companies" ManuallyRouted="false" />
+        <AssociationConnector Association="V3Model.FK_CompanyOrderStatuses_Companies" ManuallyRouted="false" />
+        <AssociationConnector Association="V3Model.FK_CompanyProjectProductStatuses_Companies" ManuallyRouted="false" />
+        <AssociationConnector Association="V3Model.FK_CompanyProjectStatuses_Companies" ManuallyRouted="false" />
+        <AssociationConnector Association="V3Model.FK_CompanyQuoteStatuses_Companies" ManuallyRouted="false" />
+        <AssociationConnector Association="V3Model.FK_CompanyUsers_Companies" ManuallyRouted="false" />
+        <AssociationConnector Association="V3Model.FK_Competitors_Companies" ManuallyRouted="false" />
+        <AssociationConnector Association="V3Model.FK_CreditStatuses_Companies" ManuallyRouted="false" />
+        <AssociationConnector Association="V3Model.FK_CustomerEventTypes_Companies" ManuallyRouted="false" />
+        <AssociationConnector Association="V3Model.FK_CustomerTypes_Companies" ManuallyRouted="false" />
+        <AssociationConnector Association="V3Model.FK_Divisions_Companies" ManuallyRouted="false" />
+        <AssociationConnector Association="V3Model.FK_Employee_Companies" ManuallyRouted="false" />
+        <AssociationConnector Association="V3Model.FK_ErrorLog_Companies" ManuallyRouted="false" />
+        <AssociationConnector Association="V3Model.FK_EventFrequency_Companies" ManuallyRouted="false" />
+        <AssociationConnector Association="V3Model.FK_FieldConfigs_Companies" ManuallyRouted="false" />
+        <AssociationConnector Association="V3Model.FK_LinesOfBusiness_Companies" ManuallyRouted="false" />
+        <AssociationConnector Association="V3Model.FK_LostReasons_Companies" ManuallyRouted="false" />
+        <AssociationConnector Association="V3Model.FK_OracleExports_Companies" ManuallyRouted="false" />
+        <AssociationConnector Association="V3Model.FK_Orders_Companies" ManuallyRouted="false" />
+        <AssociationConnector Association="V3Model.FK_PaymentTerms_Companies" ManuallyRouted="false" />
+        <AssociationConnector Association="V3Model.FK_Product_Companies" ManuallyRouted="false" />
+        <AssociationConnector Association="V3Model.FK_ProductLines_Companies" ManuallyRouted="false" />
+        <AssociationConnector Association="V3Model.FK_ProductUsage_Companies" ManuallyRouted="false" />
+        <AssociationConnector Association="V3Model.FK_ProjectCharges_Companies" ManuallyRouted="false" />
+        <AssociationConnector Association="V3Model.FK_ProjectMapQtyRanges_Companies" ManuallyRouted="false" />
+        <AssociationConnector Association="V3Model.FK_Projects_Companies" ManuallyRouted="false" />
+        <AssociationConnector Association="V3Model.FK_ProjectTypes_Companies" ManuallyRouted="false" />
+        <AssociationConnector Association="V3Model.FK_Prospects_Companies" ManuallyRouted="false" />
+        <AssociationConnector Association="V3Model.FK_PSI_Companies" ManuallyRouted="false" />
+        <AssociationConnector Association="V3Model.FK_QuoteTypes_Companies" ManuallyRouted="false" />
+        <AssociationConnector Association="V3Model.FK_Sources_Companies" ManuallyRouted="false" />
+        <AssociationConnector Association="V3Model.FK_StandardClauses_Companies" ManuallyRouted="false" />
+        <AssociationConnector Association="V3Model.FK_Surcharges_Companies" ManuallyRouted="false" />
+        <AssociationConnector Association="V3Model.FK_Terms_Discount_Companies" ManuallyRouted="false" />
+        <AssociationConnector Association="V3Model.FK_TQS_bbty_Company" ManuallyRouted="false" />
+        <AssociationConnector Association="V3Model.FK_TQS_encd_Company" ManuallyRouted="false" />
+        <AssociationConnector Association="V3Model.FK_TQS_envr_Company" ManuallyRouted="false" />
+        <AssociationConnector Association="V3Model.FK_TQS_mtac_Company" ManuallyRouted="false" />
+        <AssociationConnector Association="V3Model.FK_TQS_mtbt_Company" ManuallyRouted="false" />
+        <AssociationConnector Association="V3Model.FK_TQS_mtlc_Company" ManuallyRouted="false" />
+        <AssociationConnector Association="V3Model.FK_TQS_mtlp_Company" ManuallyRouted="false" />
+        <AssociationConnector Association="V3Model.FK_TQS_mxca_Company" ManuallyRouted="false" />
+        <AssociationConnector Association="V3Model.FK_TQS_mxcc_Company" ManuallyRouted="false" />
+        <AssociationConnector Association="V3Model.FK_TQS_prjp_Company" ManuallyRouted="false" />
+        <AssociationConnector Association="V3Model.FK_TQS_work_Company" ManuallyRouted="false" />
+        <AssociationConnector Association="V3Model.FK_Unit_Of_Measure_Companies" ManuallyRouted="false" />
+        <AssociationConnector Association="V3Model.FK_Users_Companies" ManuallyRouted="false" />
+        <AssociationConnector Association="V3Model.FK_VehicleTypes_Companies" ManuallyRouted="false" />
+        <AssociationConnector Association="V3Model.FK_ZoneCodes_Companies" ManuallyRouted="false" />
+        <AssociationConnector Association="V3Model.FK_CompanyBidStatuses_Statuses" ManuallyRouted="false" />
+        <AssociationConnector Association="V3Model.FK_ProjectBidderProducts_CompanyBidStatuses" ManuallyRouted="false" />
+        <AssociationConnector Association="V3Model.FK_ProjectProducts_CompanyBidStatuses" ManuallyRouted="false" />
+        <AssociationConnector Association="V3Model.FK_Projects_Statuses" ManuallyRouted="false" />
+        <AssociationConnector Association="V3Model.FK_CompanyUsers_Users" ManuallyRouted="false" />
+        <AssociationConnector Association="V3Model.FK_ProductTemplates_CompanyUsers" ManuallyRouted="false" />
+        <AssociationConnector Association="V3Model.FK_CompetitorPlants_Competitors" ManuallyRouted="false" />
+        <AssociationConnector Association="V3Model.FK_CompetitorPlants_Divisions" ManuallyRouted="false" />
+        <AssociationConnector Association="V3Model.FK_CompetitorPlants_LinesOfBusiness" ManuallyRouted="false" />
+        <AssociationConnector Association="V3Model.FK_ProjectProducts_CompetitorPlants" ManuallyRouted="false" />
+        <AssociationConnector Association="V3Model.FK_Projects_CompetitorPlants" ManuallyRouted="false" />
+        <AssociationConnector Association="V3Model.FK_Competitors_Users" ManuallyRouted="false" />
+        <AssociationConnector Association="V3Model.FK_Contact_Prospects" ManuallyRouted="false" />
+        <AssociationConnector Association="V3Model.FK_Contact_Users" ManuallyRouted="false" />
+        <AssociationConnector Association="V3Model.FK_ContactNotes_Contact" ManuallyRouted="false" />
+        <AssociationConnector Association="V3Model.FK_CustomerEvents_Contact" ManuallyRouted="false" />
+        <AssociationConnector Association="V3Model.FK_Quote_Contact" ManuallyRouted="false" />
+        <AssociationConnector Association="V3Model.FK_SalespersonContacts_Contact" ManuallyRouted="false" />
+        <AssociationConnector Association="V3Model.FK_ContactNotes_Users" ManuallyRouted="false" />
+        <AssociationConnector Association="V3Model.FK_CustomerEvents_CustomerEventTypes" ManuallyRouted="false" />
+        <AssociationConnector Association="V3Model.FK_CustomerEvents_EventFrequence" ManuallyRouted="false" />
+        <AssociationConnector Association="V3Model.FK_CustomerEvents_EventStatus" ManuallyRouted="false" />
+        <AssociationConnector Association="V3Model.FK_CustomerEvents_Projects" ManuallyRouted="false" />
+        <AssociationConnector Association="V3Model.FK_CustomerEvents_Prospects" ManuallyRouted="false" />
+        <AssociationConnector Association="V3Model.FK_CustomerEvents_Users" ManuallyRouted="false" />
+        <AssociationConnector Association="V3Model.FK_CustomerEvents_Users1" ManuallyRouted="false" />
+        <AssociationConnector Association="V3Model.FK_Prospects_CustomerTypes" ManuallyRouted="false" />
+        <AssociationConnector Association="V3Model.FK_Plant_Divisions" ManuallyRouted="false" />
+        <AssociationConnector Association="V3Model.FK_PlantLinesOfBusiness_LinesOfBusiness" ManuallyRouted="false" />
+        <AssociationConnector Association="V3Model.FK_ProductLineLineOfBusiness_LinesOfBusiness" ManuallyRouted="false" />
+        <AssociationConnector Association="V3Model.FK_ProjectProducts_LinesOfBusiness" ManuallyRouted="false" />
+        <AssociationConnector Association="V3Model.FK_TemplatedProducts_LinesOfBusiness" ManuallyRouted="false" />
+        <AssociationConnector Association="V3Model.FK_usersDivisions_Locations_Divisions_Lookup" ManuallyRouted="false" />
+        <AssociationConnector Association="V3Model.FK_Logins_Users" ManuallyRouted="false" />
+        <AssociationConnector Association="V3Model.FK_ManagersSalesmen_Manager" ManuallyRouted="false" />
+        <AssociationConnector Association="V3Model.FK_ManagersSalesmen_Salesman" ManuallyRouted="false" />
+        <AssociationConnector Association="V3Model.FK_OrderDetails_Orders" ManuallyRouted="false" />
+        <AssociationConnector Association="V3Model.FK_OrderDetails_Product" ManuallyRouted="false" />
+        <AssociationConnector Association="V3Model.FK_Orders_Locations" ManuallyRouted="false" />
+        <AssociationConnector Association="V3Model.FK_Orders_Projects" ManuallyRouted="false" />
+        <AssociationConnector Association="V3Model.FK_Orders_Prospects" ManuallyRouted="false" />
+        <AssociationConnector Association="V3Model.FK_Prospects_PaymentTerms" ManuallyRouted="false" />
+        <AssociationConnector Association="V3Model.FK_Plant_ProductLines" ManuallyRouted="false" />
+        <AssociationConnector Association="V3Model.FK_PlantLinesOfBusiness_Plant" ManuallyRouted="false" />
+        <AssociationConnector Association="V3Model.FK_PlantProductPrices_Plant" ManuallyRouted="false" />
+        <AssociationConnector Association="V3Model.FK_PlantProducts_Plant" ManuallyRouted="false" />
+        <AssociationConnector Association="V3Model.FK_ProjectBidders_Plant" ManuallyRouted="false" />
+        <AssociationConnector Association="V3Model.FK_ProjectDistances_Plants" ManuallyRouted="false" />
+        <AssociationConnector Association="V3Model.FK_ProjectProducts_Plant" ManuallyRouted="false" />
+        <AssociationConnector Association="V3Model.FK_Projects_Plant" ManuallyRouted="false" />
+        <AssociationConnector Association="V3Model.FK_SalesPersonRegions_Plant" ManuallyRouted="false" />
+        <AssociationConnector Association="V3Model.FK_StandardClauses_Plants" ManuallyRouted="false" />
+        <AssociationConnector Association="V3Model.FK_Surcharges_Plants" ManuallyRouted="false" />
+        <AssociationConnector Association="V3Model.FK_TemplatedProducts_Plant" ManuallyRouted="false" />
+        <AssociationConnector Association="V3Model.FK_PlantProductPrices_Product" ManuallyRouted="false" />
+        <AssociationConnector Association="V3Model.FK_PlantProducts_Product" ManuallyRouted="false" />
+        <AssociationConnector Association="V3Model.FK_PourSchedule_ProjectProducts" ManuallyRouted="false" />
+        <AssociationConnector Association="V3Model.FK_PourSchedule_Projects" ManuallyRouted="false" />
+        <AssociationConnector Association="V3Model.FK_ScheduleDetails_PourSchedule" ManuallyRouted="false" />
+        <AssociationConnector Association="V3Model.FK_Product_ProductTypes" ManuallyRouted="false" />
+        <AssociationConnector Association="V3Model.FK_Product_Unit_Of_Measure" ManuallyRouted="false" />
+        <AssociationConnector Association="V3Model.FK_ProjectProducts_Product" ManuallyRouted="false" />
+        <AssociationConnector Association="V3Model.FK_ProspectQuantities_Product" ManuallyRouted="false" />
+        <AssociationConnector Association="V3Model.FK_StandardClauses_Products" ManuallyRouted="false" />
+        <AssociationConnector Association="V3Model.FK_TemplatedProducts_Product" ManuallyRouted="false" />
+        <AssociationConnector Association="V3Model.FK_ValueAdd_Product" ManuallyRouted="false" />
+        <AssociationConnector Association="V3Model.FK_ProductLineLineOfBusiness_ProductLines" ManuallyRouted="false" />
+        <AssociationConnector Association="V3Model.FK_ProductUsage_ProductLines" ManuallyRouted="false" />
+        <AssociationConnector Association="V3Model.FK_ProjectBidderCharges_ProductLines" ManuallyRouted="false" />
+        <AssociationConnector Association="V3Model.FK_ProjectProducts_ProductLines" ManuallyRouted="false" />
+        <AssociationConnector Association="V3Model.FK_PSI_ProductLines" ManuallyRouted="false" />
+        <AssociationConnector Association="V3Model.FK_StandardClauses_ProductLines" ManuallyRouted="false" />
+        <AssociationConnector Association="V3Model.FK_TemplatedProducts_ProductLines" ManuallyRouted="false" />
+        <AssociationConnector Association="V3Model.FK_ValueAdd_ProductLines" ManuallyRouted="false" />
+        <AssociationConnector Association="V3Model.FK_TemplatedProducts_ProductTemplates" ManuallyRouted="false" />
+        <AssociationConnector Association="V3Model.FK_TemplatedProductTypes_ProductTemplates" ManuallyRouted="false" />
+        <AssociationConnector Association="V3Model.FK_ProductTypes_Unit_Of_Measure" ManuallyRouted="false" />
+        <AssociationConnector Association="V3Model.FK_ProjectProducts_ProductTypes" ManuallyRouted="false" />
+        <AssociationConnector Association="V3Model.FK_TemplatedProducts_ProductTypes" ManuallyRouted="false" />
+        <AssociationConnector Association="V3Model.FK_TemplatedProductTypes_ProductTypes" ManuallyRouted="false" />
+        <AssociationConnector Association="V3Model.FK_ValueAdd_ProductTypes" ManuallyRouted="false" />
+        <AssociationConnector Association="V3Model.FK_ProjectProducts_ProductUsage" ManuallyRouted="false" />
+        <AssociationConnector Association="V3Model.FK_StandardClauses_ProductUsages" ManuallyRouted="false" />
+        <AssociationConnector Association="V3Model.FK_TemplatedProducts_ProductUsage" ManuallyRouted="false" />
+        <AssociationConnector Association="V3Model.FK_TemplatedProductTypes_ProductUsage" ManuallyRouted="false" />
+        <AssociationConnector Association="V3Model.FK_ProjectBidderCharges_ProjectBidders" ManuallyRouted="false" />
+        <AssociationConnector Association="V3Model.FK_ProjectBidderCharges_ProjectCharges" ManuallyRouted="false" />
+        <AssociationConnector Association="V3Model.FK_ProjectBidderNotes_ProjectBidders" ManuallyRouted="false" />
+        <AssociationConnector Association="V3Model.FK_ProjectBidderNotes_Users" ManuallyRouted="false" />
+        <AssociationConnector Association="V3Model.FK_ProjectBidderProducts_Bidders" ManuallyRouted="false" />
+        <AssociationConnector Association="V3Model.FK_ProjectBidderProducts_ProjectProducts" ManuallyRouted="false" />
+        <AssociationConnector Association="V3Model.FK_ProjectBidders_MinLoadCharges" ManuallyRouted="false" />
+        <AssociationConnector Association="V3Model.FK_ProjectBidders_ProjectBidderProductStatuses" ManuallyRouted="false" />
+        <AssociationConnector Association="V3Model.FK_ProjectBidders_Projects" ManuallyRouted="false" />
+        <AssociationConnector Association="V3Model.FK_ProjectBidders_Prospects" ManuallyRouted="false" />
+        <AssociationConnector Association="V3Model.FK_ProjectBidders_SeasonalCharges" ManuallyRouted="false" />
+        <AssociationConnector Association="V3Model.FK_ProjectBidders_SundryCharges" ManuallyRouted="false" />
+        <AssociationConnector Association="V3Model.FK_ProjectBidders_UnloadCharges" ManuallyRouted="false" />
+        <AssociationConnector Association="V3Model.FK_Quote_ProjectBidders" ManuallyRouted="false" />
+        <AssociationConnector Association="V3Model.FK_ProjectCharges_ProjectChargetypes" ManuallyRouted="false" />
+        <AssociationConnector Association="V3Model.FK_ProjectDistances_Projects" ManuallyRouted="false" />
+        <AssociationConnector Association="V3Model.FK_ProjectHistorySummary_Prospects" ManuallyRouted="false" />
+        <AssociationConnector Association="V3Model.FK_ProjectNotes_Projects" ManuallyRouted="false" />
+        <AssociationConnector Association="V3Model.FK_ProjectNotes_Users" ManuallyRouted="false" />
+        <AssociationConnector Association="V3Model.FK_ProjectProducts_Projects" ManuallyRouted="false" />
+        <AssociationConnector Association="V3Model.FK_ProjectProducts_Unit_Of_Measure" ManuallyRouted="false" />
+        <AssociationConnector Association="V3Model.FK_QuoteDetails_ProjectProducts" ManuallyRouted="false" />
+        <AssociationConnector Association="V3Model.FK_Schedules_ProjectProducts" ManuallyRouted="false" />
+        <AssociationConnector Association="V3Model.FK_Projects_ProjectTypes" ManuallyRouted="false" />
+        <AssociationConnector Association="V3Model.FK_Projects_Sources" ManuallyRouted="false" />
+        <AssociationConnector Association="V3Model.FK_Projects_Users" ManuallyRouted="false" />
+        <AssociationConnector Association="V3Model.FK_Projects_Users1" ManuallyRouted="false" />
+        <AssociationConnector Association="V3Model.FK_Projects_ZoneCodes" ManuallyRouted="false" />
+        <AssociationConnector Association="V3Model.FK_Prospects_ProjectTypes" ManuallyRouted="false" />
+        <AssociationConnector Association="V3Model.FK_ProspectNotes_Prospects" ManuallyRouted="false" />
+        <AssociationConnector Association="V3Model.FK_ProspectNotes_Users" ManuallyRouted="false" />
+        <AssociationConnector Association="V3Model.FK_ProspectQuantities_Prospects" ManuallyRouted="false" />
+        <AssociationConnector Association="V3Model.FK_ProspectRegions_Prospects" ManuallyRouted="false" />
+        <AssociationConnector Association="V3Model.FK_Prospects_Users" ManuallyRouted="false" />
+        <AssociationConnector Association="V3Model.FK_QuoteDetails_Quote" ManuallyRouted="false" />
+        <AssociationConnector Association="V3Model.FK_Quote_QuoteTypes" ManuallyRouted="false" />
+        <AssociationConnector Association="V3Model.FK_Quotes_QuoteStatuses" ManuallyRouted="false" />
+        <AssociationConnector Association="V3Model.FK_Quotes_Salesperson" ManuallyRouted="false" />
+        <AssociationConnector Association="V3Model.FK_Quotes_Terms_Discount" ManuallyRouted="false" />
+        <AssociationConnector Association="V3Model.FK_Quotes_Users" ManuallyRouted="false" />
+        <AssociationConnector Association="V3Model.FK_QuoteStandardClauses_Quotes" ManuallyRouted="false" />
+        <AssociationConnector Association="V3Model.FK_Table_1_Quotes" ManuallyRouted="false" />
+        <AssociationConnector Association="V3Model.FK_QuoteStandardClauses_StandardClauses" ManuallyRouted="false" />
+        <AssociationConnector Association="V3Model.FK_Table_1_Surcharges" ManuallyRouted="false" />
+        <AssociationConnector Association="V3Model.FK_UserRoles_Roles" ManuallyRouted="false" />
+        <AssociationConnector Association="V3Model.FK_SalespersonContacts_Users" ManuallyRouted="false" />
+        <AssociationConnector Association="V3Model.FK_SalesPersonRegions_Users" ManuallyRouted="false" />
+        <AssociationConnector Association="V3Model.FK_ScheduleItems_Schedules" ManuallyRouted="false" />
+        <AssociationConnector Association="V3Model.FK_QuoteSurcharges_Unit_Of_Measure" ManuallyRouted="false" />
+        <AssociationConnector Association="V3Model.FK_TemplatedProducts_Unit_Of_Measure" ManuallyRouted="false" />
+        <AssociationConnector Association="V3Model.FK_UserRoles_Users" ManuallyRouted="false" />
+        <AssociationConnector Association="V3Model.FK_usersDivisions_Users" ManuallyRouted="false" />
+        <EntityTypeShape EntityType="V3Model.BI_Results" Width="1.5" PointX="9.375" PointY="4.75" />
+        <EntityTypeShape EntityType="V3Model.BI_Exports" Width="1.5" PointX="5.25" PointY="121.625" />
+        <AssociationConnector Association="V3Model.FK_BI_Exports_Companies" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

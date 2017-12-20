@@ -1,0 +1,2076 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="OracleCloudStoreContainer" CdmEntityContainer="CloudEntities">
+    <EntitySetMapping Name="AccountsReceivables">
+      <EntityTypeMapping TypeName="Entities.AccountsReceivable">
+        <MappingFragment StoreEntitySet="AccountsReceivable">
+          <ScalarProperty Name="AccountsReceivableID" ColumnName="AccountsReceivableID" />
+          <ScalarProperty Name="ProspectID" ColumnName="ProspectID" />
+          <ScalarProperty Name="AgeRangeID" ColumnName="AgeRangeID" />
+          <ScalarProperty Name="Dollars" ColumnName="Dollars" />
+          <ScalarProperty Name="CompanyID" ColumnName="CompanyID" />
+          <ScalarProperty Name="MsModificationDate" ColumnName="MsModificationDate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="AdditionalProducts">
+      <EntityTypeMapping TypeName="Entities.AdditionalProduct">
+        <MappingFragment StoreEntitySet="AdditionalProducts">
+          <ScalarProperty Name="ProductName" ColumnName="ProductName" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="CostPerUnit" ColumnName="CostPerUnit" />
+          <ScalarProperty Name="Active" ColumnName="Active" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="DivisionID" ColumnName="DivisionID" />
+          <ScalarProperty Name="ProductID" ColumnName="ProductID" />
+          <ScalarProperty Name="CompanyID" ColumnName="CompanyID" />
+          <ScalarProperty Name="MsModificationDate" ColumnName="MsModificationDate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="AgeRanges">
+      <EntityTypeMapping TypeName="Entities.AgeRanx">
+        <MappingFragment StoreEntitySet="AgeRanges">
+          <ScalarProperty Name="AgeRangeID" ColumnName="AgeRangeID" />
+          <ScalarProperty Name="CompanyID" ColumnName="CompanyID" />
+          <ScalarProperty Name="RangeStart" ColumnName="RangeStart" />
+          <ScalarProperty Name="RangeEnd" ColumnName="RangeEnd" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="MsModificationDate" ColumnName="MsModificationDate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="BatchEvents">
+      <EntityTypeMapping TypeName="Entities.BatchEvent">
+        <MappingFragment StoreEntitySet="BatchEvents">
+          <ScalarProperty Name="BatchPerformedDate" ColumnName="BatchPerformedDate" />
+          <ScalarProperty Name="BatchEventsID" ColumnName="BatchEventsID" />
+          <ScalarProperty Name="CompanyID" ColumnName="CompanyID" />
+          <ScalarProperty Name="MsModificationDate" ColumnName="MsModificationDate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="BidderQuoteDetails">
+      <EntityTypeMapping TypeName="Entities.BidderQuoteDetail">
+        <MappingFragment StoreEntitySet="BidderQuoteDetails">
+          <ScalarProperty Name="BidderQuoteDetailID" ColumnName="BidderQuoteDetailID" />
+          <ScalarProperty Name="BidderQuoteID" ColumnName="BidderQuoteID" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="Price" ColumnName="Price" />
+          <ScalarProperty Name="MsModificationDate" ColumnName="MsModificationDate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="BidderQuotes">
+      <EntityTypeMapping TypeName="Entities.BidderQuote">
+        <MappingFragment StoreEntitySet="BidderQuotes">
+          <ScalarProperty Name="BidderQuoteID" ColumnName="BidderQuoteID" />
+          <ScalarProperty Name="Attention" ColumnName="Attention" />
+          <ScalarProperty Name="SalespersonName" ColumnName="SalespersonName" />
+          <ScalarProperty Name="SalespersonID" ColumnName="SalespersonID" />
+          <ScalarProperty Name="Address1" ColumnName="Address1" />
+          <ScalarProperty Name="Paymentterms" ColumnName="Paymentterms" />
+          <ScalarProperty Name="PaymenttermsValue" ColumnName="PaymenttermsValue" />
+          <ScalarProperty Name="Jobname" ColumnName="Jobname" />
+          <ScalarProperty Name="DateQuoted" ColumnName="DateQuoted" />
+          <ScalarProperty Name="ProjectBidderID" ColumnName="ProjectBidderID" />
+          <ScalarProperty Name="Division" ColumnName="Division" />
+          <ScalarProperty Name="ExpirationDate" ColumnName="ExpirationDate" />
+          <ScalarProperty Name="ProjectID" ColumnName="ProjectID" />
+          <ScalarProperty Name="MsModificationDate" ColumnName="MsModificationDate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="BudgetedYards">
+      <EntityTypeMapping TypeName="Entities.BudgetedYard">
+        <MappingFragment StoreEntitySet="BudgetedYards">
+          <ScalarProperty Name="BudgetedYardsID" ColumnName="BudgetedYardsID" />
+          <ScalarProperty Name="UserID" ColumnName="UserID" />
+          <ScalarProperty Name="Year" ColumnName="Year" />
+          <ScalarProperty Name="Month" ColumnName="Month" />
+          <ScalarProperty Name="BudgetedYards" ColumnName="BudgetedYards" />
+          <ScalarProperty Name="BudgetedRevenue" ColumnName="BudgetedRevenue" />
+          <ScalarProperty Name="ValueAddID" ColumnName="ValueAddID" />
+          <ScalarProperty Name="MsModificationDate" ColumnName="MsModificationDate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="cnfcs">
+      <EntityTypeMapping TypeName="Entities.cnfc">
+        <MappingFragment StoreEntitySet="cnfc">
+          <ScalarProperty Name="structure_segment_type" ColumnName="structure_segment_type" />
+          <ScalarProperty Name="structure_segment_number" ColumnName="structure_segment_number" />
+          <ScalarProperty Name="structure_segment_mask" ColumnName="structure_segment_mask" />
+          <ScalarProperty Name="structure_segment_id" ColumnName="structure_segment_id" />
+          <ScalarProperty Name="structure_segment_length" ColumnName="structure_segment_length" />
+          <ScalarProperty Name="update_date" ColumnName="update_date" />
+          <ScalarProperty Name="u_version" ColumnName="u_version" />
+          <ScalarProperty Name="CompanyID" ColumnName="CompanyID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Companies">
+      <EntityTypeMapping TypeName="Entities.Company">
+        <MappingFragment StoreEntitySet="Companies">
+          <ScalarProperty Name="CompanyID" ColumnName="CompanyID" />
+          <ScalarProperty Name="CompanyName" ColumnName="CompanyName" />
+          <ScalarProperty Name="Address1" ColumnName="Address1" />
+          <ScalarProperty Name="Address2" ColumnName="Address2" />
+          <ScalarProperty Name="City" ColumnName="City" />
+          <ScalarProperty Name="ST" ColumnName="ST" />
+          <ScalarProperty Name="Zip" ColumnName="Zip" />
+          <ScalarProperty Name="Phone1" ColumnName="Phone1" />
+          <ScalarProperty Name="Phone2" ColumnName="Phone2" />
+          <ScalarProperty Name="Fax" ColumnName="Fax" />
+          <ScalarProperty Name="ServiceUrl" ColumnName="ServiceUrl" />
+          <ScalarProperty Name="QuoteImage" ColumnName="QuoteImage" />
+          <ScalarProperty Name="SourceSystemID" ColumnName="SourceSystemID" />
+          <ScalarProperty Name="CompanyCode" ColumnName="CompanyCode" />
+          <ScalarProperty Name="ChannelID" ColumnName="ChannelID" />
+          <ScalarProperty Name="InstanceID" ColumnName="InstanceID" />
+          <ScalarProperty Name="UsesCategories" ColumnName="UsesCategories" />
+          <ScalarProperty Name="MaxQuantity" ColumnName="MaxQuantity" />
+          <ScalarProperty Name="DefaultUomID" ColumnName="DefaultUomID" />
+          <ScalarProperty Name="Cert509" ColumnName="Cert509" />
+          <ScalarProperty Name="UsesSAML" ColumnName="UsesSAML" />
+          <ScalarProperty Name="TimeoutRedirect" ColumnName="TimeoutRedirect" />
+          <ScalarProperty Name="ChangeProjectCode" ColumnName="ChangeProjectCode" />
+          <ScalarProperty Name="UsesPriceIntegration" ColumnName="UsesPriceIntegration" />
+          <ScalarProperty Name="UsesSalesOrders" ColumnName="UsesSalesOrders" />
+          <ScalarProperty Name="Country" ColumnName="Country" />
+          <ScalarProperty Name="DeliverToExport" ColumnName="DeliverToExport" />
+          <ScalarProperty Name="MsModificationDate" ColumnName="MsModificationDate" />
+          <ScalarProperty Name="DefaultQuoteTypeID" ColumnName="DefaultQuoteTypeID" />
+          <ScalarProperty Name="UseMultipleEscalators" ColumnName="UseMultipleEscalators" />
+          <ScalarProperty Name="DefaultFirmUntilDays" ColumnName="DefaultFirmUntilDays" />
+          <ScalarProperty Name="AlwaysExportLatLngAddress" ColumnName="AlwaysExportLatLngAddress" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CompanyBidStatuses">
+      <EntityTypeMapping TypeName="Entities.CompanyBidStatus">
+        <MappingFragment StoreEntitySet="CompanyBidStatuses">
+          <ScalarProperty Name="CompanyBidStatusID" ColumnName="CompanyBidStatusID" />
+          <ScalarProperty Name="CompanyBidStatusName" ColumnName="CompanyBidStatusName" />
+          <ScalarProperty Name="CompanyID" ColumnName="CompanyID" />
+          <ScalarProperty Name="SystemCode" ColumnName="SystemCode" />
+          <ScalarProperty Name="MSStatusID" ColumnName="MSStatusID" />
+          <ScalarProperty Name="MsModificationDate" ColumnName="MsModificationDate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CompanyOrderStatuses">
+      <EntityTypeMapping TypeName="Entities.CompanyOrderStatus">
+        <MappingFragment StoreEntitySet="CompanyOrderStatuses">
+          <ScalarProperty Name="CompanyOrderStatusID" ColumnName="CompanyOrderStatusID" />
+          <ScalarProperty Name="CompanyOrderStatusName" ColumnName="CompanyOrderStatusName" />
+          <ScalarProperty Name="CompanyID" ColumnName="CompanyID" />
+          <ScalarProperty Name="MsModificationDate" ColumnName="MsModificationDate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CompanyProjectProductStatuses">
+      <EntityTypeMapping TypeName="Entities.CompanyProjectProductStatus">
+        <MappingFragment StoreEntitySet="CompanyProjectProductStatuses">
+          <ScalarProperty Name="CompanyProjectProductStatusID" ColumnName="CompanyProjectProductStatusID" />
+          <ScalarProperty Name="CompanyProjectProductStatusName" ColumnName="CompanyProjectProductStatusName" />
+          <ScalarProperty Name="CompanyID" ColumnName="CompanyID" />
+          <ScalarProperty Name="MsModificationDate" ColumnName="MsModificationDate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CompanyProjectStatuses">
+      <EntityTypeMapping TypeName="Entities.CompanyProjectStatus">
+        <MappingFragment StoreEntitySet="CompanyProjectStatuses">
+          <ScalarProperty Name="CompanyProjectStatusID" ColumnName="CompanyProjectStatusID" />
+          <ScalarProperty Name="CompanyProjectStatusName" ColumnName="CompanyProjectStatusName" />
+          <ScalarProperty Name="CompanyID" ColumnName="CompanyID" />
+          <ScalarProperty Name="MsModificationDate" ColumnName="MsModificationDate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CompanyQuoteStatuses">
+      <EntityTypeMapping TypeName="Entities.CompanyQuoteStatus">
+        <MappingFragment StoreEntitySet="CompanyQuoteStatuses">
+          <ScalarProperty Name="CompanyQuoteStatusID" ColumnName="CompanyQuoteStatusID" />
+          <ScalarProperty Name="CompanyQuoteStatusName" ColumnName="CompanyQuoteStatusName" />
+          <ScalarProperty Name="CompanyID" ColumnName="CompanyID" />
+          <ScalarProperty Name="MsModificationDate" ColumnName="MsModificationDate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CompanyUsers">
+      <EntityTypeMapping TypeName="Entities.CompanyUser">
+        <MappingFragment StoreEntitySet="CompanyUsers">
+          <ScalarProperty Name="CompanyUserID" ColumnName="CompanyUserID" />
+          <ScalarProperty Name="CompanyID" ColumnName="CompanyID" />
+          <ScalarProperty Name="UserID" ColumnName="UserID" />
+          <ScalarProperty Name="SalesmanCode" ColumnName="SalesmanCode" />
+          <ScalarProperty Name="MsModificationDate" ColumnName="MsModificationDate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CompetitorPlants">
+      <EntityTypeMapping TypeName="Entities.CompetitorPlant">
+        <MappingFragment StoreEntitySet="CompetitorPlants">
+          <ScalarProperty Name="CompetitorPlantID" ColumnName="CompetitorPlantID" />
+          <ScalarProperty Name="CompetitorID" ColumnName="CompetitorID" />
+          <ScalarProperty Name="PlantName" ColumnName="PlantName" />
+          <ScalarProperty Name="Inserted" ColumnName="Inserted" />
+          <ScalarProperty Name="Modified" ColumnName="Modified" />
+          <ScalarProperty Name="Inactive_Flag" ColumnName="Inactive_Flag" />
+          <ScalarProperty Name="PlantCost" ColumnName="PlantCost" />
+          <ScalarProperty Name="DeliveryCost" ColumnName="DeliveryCost" />
+          <ScalarProperty Name="MaterialCost" ColumnName="MaterialCost" />
+          <ScalarProperty Name="SGACost" ColumnName="SGACost" />
+          <ScalarProperty Name="Address1" ColumnName="Address1" />
+          <ScalarProperty Name="Address2" ColumnName="Address2" />
+          <ScalarProperty Name="Address3" ColumnName="Address3" />
+          <ScalarProperty Name="City" ColumnName="City" />
+          <ScalarProperty Name="State" ColumnName="State" />
+          <ScalarProperty Name="Zip" ColumnName="Zip" />
+          <ScalarProperty Name="Longitude" ColumnName="Longitude" />
+          <ScalarProperty Name="Latitude" ColumnName="Latitude" />
+          <ScalarProperty Name="DivisionID" ColumnName="DivisionID" />
+          <ScalarProperty Name="LineOfBusinessID" ColumnName="LineOfBusinessID" />
+          <ScalarProperty Name="Country" ColumnName="Country" />
+          <ScalarProperty Name="MsModificationDate" ColumnName="MsModificationDate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Competitors">
+      <EntityTypeMapping TypeName="Entities.Competitor">
+        <MappingFragment StoreEntitySet="Competitors">
+          <ScalarProperty Name="CompetitorID" ColumnName="CompetitorID" />
+          <ScalarProperty Name="CompanyID" ColumnName="CompanyID" />
+          <ScalarProperty Name="CompetitorName" ColumnName="CompetitorName" />
+          <ScalarProperty Name="Inserted" ColumnName="Inserted" />
+          <ScalarProperty Name="Modified" ColumnName="Modified" />
+          <ScalarProperty Name="Inactive" ColumnName="Inactive" />
+          <ScalarProperty Name="UserID" ColumnName="UserID" />
+          <ScalarProperty Name="Address1" ColumnName="Address1" />
+          <ScalarProperty Name="Address2" ColumnName="Address2" />
+          <ScalarProperty Name="Address3" ColumnName="Address3" />
+          <ScalarProperty Name="City" ColumnName="City" />
+          <ScalarProperty Name="State" ColumnName="State" />
+          <ScalarProperty Name="Zip" ColumnName="Zip" />
+          <ScalarProperty Name="Longitude" ColumnName="Longitude" />
+          <ScalarProperty Name="Latitude" ColumnName="Latitude" />
+          <ScalarProperty Name="Country" ColumnName="Country" />
+          <ScalarProperty Name="MsModificationDate" ColumnName="MsModificationDate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Contacts">
+      <EntityTypeMapping TypeName="Entities.Contact">
+        <MappingFragment StoreEntitySet="Contact">
+          <ScalarProperty Name="ContactID" ColumnName="ContactID" />
+          <ScalarProperty Name="Private" ColumnName="Private" />
+          <ScalarProperty Name="OwnerID" ColumnName="OwnerID" />
+          <ScalarProperty Name="FirstName" ColumnName="FirstName" />
+          <ScalarProperty Name="LastName" ColumnName="LastName" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="ProspectID" ColumnName="ProspectID" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="MobilePhone" ColumnName="MobilePhone" />
+          <ScalarProperty Name="Phone" ColumnName="Phone" />
+          <ScalarProperty Name="Fax" ColumnName="Fax" />
+          <ScalarProperty Name="Address" ColumnName="Address" />
+          <ScalarProperty Name="FullName" ColumnName="FullName" />
+          <ScalarProperty Name="Title" ColumnName="Title" />
+          <ScalarProperty Name="StartingYearatCompany" ColumnName="StartingYearatCompany" />
+          <ScalarProperty Name="Department" ColumnName="Department" />
+          <ScalarProperty Name="Address2" ColumnName="Address2" />
+          <ScalarProperty Name="Address3" ColumnName="Address3" />
+          <ScalarProperty Name="City" ColumnName="City" />
+          <ScalarProperty Name="State" ColumnName="State" />
+          <ScalarProperty Name="Zip" ColumnName="Zip" />
+          <ScalarProperty Name="Salutation" ColumnName="Salutation" />
+          <ScalarProperty Name="Notes" ColumnName="Notes" />
+          <ScalarProperty Name="Inserted" ColumnName="Inserted" />
+          <ScalarProperty Name="Modified" ColumnName="Modified" />
+          <ScalarProperty Name="Country" ColumnName="Country" />
+          <ScalarProperty Name="MsModificationDate" ColumnName="MsModificationDate" />
+          <ScalarProperty Name="Inactive" ColumnName="Inactive" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ContactNotes">
+      <EntityTypeMapping TypeName="Entities.ContactNote">
+        <MappingFragment StoreEntitySet="ContactNotes">
+          <ScalarProperty Name="ContactNoteID" ColumnName="ContactNoteID" />
+          <ScalarProperty Name="ContactID" ColumnName="ContactID" />
+          <ScalarProperty Name="Note" ColumnName="Note" />
+          <ScalarProperty Name="Inserted" ColumnName="Inserted" />
+          <ScalarProperty Name="CreatedBy" ColumnName="CreatedBy" />
+          <ScalarProperty Name="Subject" ColumnName="Subject" />
+          <ScalarProperty Name="Source" ColumnName="Source" />
+          <ScalarProperty Name="MsModificationDate" ColumnName="MsModificationDate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CreditStatuses">
+      <EntityTypeMapping TypeName="Entities.CreditStatus">
+        <MappingFragment StoreEntitySet="CreditStatuses">
+          <ScalarProperty Name="CreditStatusID" ColumnName="CreditStatusID" />
+          <ScalarProperty Name="CompanyID" ColumnName="CompanyID" />
+          <ScalarProperty Name="Code" ColumnName="Code" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="ColorCode" ColumnName="ColorCode" />
+          <ScalarProperty Name="MsModificationDate" ColumnName="MsModificationDate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CustomerEvents">
+      <EntityTypeMapping TypeName="Entities.CustomerEvent">
+        <MappingFragment StoreEntitySet="CustomerEvents">
+          <ScalarProperty Name="CustomerEventID" ColumnName="CustomerEventID" />
+          <ScalarProperty Name="Private" ColumnName="Private" />
+          <ScalarProperty Name="OwnerID" ColumnName="OwnerID" />
+          <ScalarProperty Name="EventTypeID" ColumnName="EventTypeID" />
+          <ScalarProperty Name="EventStartDate" ColumnName="EventStartDate" />
+          <ScalarProperty Name="EventEndDate" ColumnName="EventEndDate" />
+          <ScalarProperty Name="CompletedDate" ColumnName="CompletedDate" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="ContactID" ColumnName="ContactID" />
+          <ScalarProperty Name="UserID" ColumnName="UserID" />
+          <ScalarProperty Name="EventFrequencyID" ColumnName="EventFrequencyID" />
+          <ScalarProperty Name="ProjectID" ColumnName="ProjectID" />
+          <ScalarProperty Name="MasterEventID" ColumnName="MasterEventID" />
+          <ScalarProperty Name="EventStatusID" ColumnName="EventStatusID" />
+          <ScalarProperty Name="Subject" ColumnName="Subject" />
+          <ScalarProperty Name="ProspectID" ColumnName="ProspectID" />
+          <ScalarProperty Name="RecurrenceEndDate" ColumnName="RecurrenceEndDate" />
+          <ScalarProperty Name="MsModificationDate" ColumnName="MsModificationDate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CustomerEventTypes">
+      <EntityTypeMapping TypeName="Entities.CustomerEventType">
+        <MappingFragment StoreEntitySet="CustomerEventTypes">
+          <ScalarProperty Name="EventTypeID" ColumnName="EventTypeID" />
+          <ScalarProperty Name="CompanyID" ColumnName="CompanyID" />
+          <ScalarProperty Name="EventType" ColumnName="EventType" />
+          <ScalarProperty Name="MsModificationDate" ColumnName="MsModificationDate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CustomerTypes">
+      <EntityTypeMapping TypeName="Entities.CustomerType">
+        <MappingFragment StoreEntitySet="CustomerTypes">
+          <ScalarProperty Name="CustomerTypeID" ColumnName="CustomerTypeID" />
+          <ScalarProperty Name="CompanyID" ColumnName="CompanyID" />
+          <ScalarProperty Name="CustomerTypeName" ColumnName="CustomerTypeName" />
+          <ScalarProperty Name="MsModificationDate" ColumnName="MsModificationDate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="DeletedItems">
+      <EntityTypeMapping TypeName="Entities.DeletedItem">
+        <MappingFragment StoreEntitySet="DeletedItems">
+          <ScalarProperty Name="DeletedItemID" ColumnName="DeletedItemID" />
+          <ScalarProperty Name="CompanyID" ColumnName="CompanyID" />
+          <ScalarProperty Name="KeyID" ColumnName="KeyID" />
+          <ScalarProperty Name="TableName" ColumnName="TableName" />
+          <ScalarProperty Name="DateDeleted" ColumnName="DateDeleted" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="DeviationTypes">
+      <EntityTypeMapping TypeName="Entities.DeviationType">
+        <MappingFragment StoreEntitySet="DeviationTypes">
+          <ScalarProperty Name="DeviationTypeID" ColumnName="DeviationTypeID" />
+          <ScalarProperty Name="DeviationTypeName" ColumnName="DeviationTypeName" />
+          <ScalarProperty Name="MsModificationDate" ColumnName="MsModificationDate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Divisions">
+      <EntityTypeMapping TypeName="Entities.Division">
+        <MappingFragment StoreEntitySet="Divisions">
+          <ScalarProperty Name="DivisionID" ColumnName="DivisionID" />
+          <ScalarProperty Name="DivisionName" ColumnName="DivisionName" />
+          <ScalarProperty Name="CompanyID" ColumnName="CompanyID" />
+          <ScalarProperty Name="Address1" ColumnName="Address1" />
+          <ScalarProperty Name="Address2" ColumnName="Address2" />
+          <ScalarProperty Name="City" ColumnName="City" />
+          <ScalarProperty Name="ST" ColumnName="ST" />
+          <ScalarProperty Name="Zip" ColumnName="Zip" />
+          <ScalarProperty Name="Country" ColumnName="Country" />
+          <ScalarProperty Name="MsModificationDate" ColumnName="MsModificationDate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Employees">
+      <EntityTypeMapping TypeName="Entities.Employee">
+        <MappingFragment StoreEntitySet="Employee">
+          <ScalarProperty Name="Employee_ID" ColumnName="Employee_ID" />
+          <ScalarProperty Name="Employee_Type_ID" ColumnName="Employee_Type_ID" />
+          <ScalarProperty Name="Home_Plant_ID" ColumnName="Home_Plant_ID" />
+          <ScalarProperty Name="Employee_Number" ColumnName="Employee_Number" />
+          <ScalarProperty Name="Hire_Date" ColumnName="Hire_Date" />
+          <ScalarProperty Name="Last_Name" ColumnName="Last_Name" />
+          <ScalarProperty Name="First_Name" ColumnName="First_Name" />
+          <ScalarProperty Name="Middle_Name" ColumnName="Middle_Name" />
+          <ScalarProperty Name="Complete_Name" ColumnName="Complete_Name" />
+          <ScalarProperty Name="Addrees_1" ColumnName="Addrees_1" />
+          <ScalarProperty Name="Address_2" ColumnName="Address_2" />
+          <ScalarProperty Name="Address_3" ColumnName="Address_3" />
+          <ScalarProperty Name="Address_4" ColumnName="Address_4" />
+          <ScalarProperty Name="Address_5" ColumnName="Address_5" />
+          <ScalarProperty Name="Address_6" ColumnName="Address_6" />
+          <ScalarProperty Name="Address_7" ColumnName="Address_7" />
+          <ScalarProperty Name="Home_Phone" ColumnName="Home_Phone" />
+          <ScalarProperty Name="Business_Phone" ColumnName="Business_Phone" />
+          <ScalarProperty Name="Cell_Phone" ColumnName="Cell_Phone" />
+          <ScalarProperty Name="Pager" ColumnName="Pager" />
+          <ScalarProperty Name="Email_Address" ColumnName="Email_Address" />
+          <ScalarProperty Name="Social_Security_Number" ColumnName="Social_Security_Number" />
+          <ScalarProperty Name="Birth_Date" ColumnName="Birth_Date" />
+          <ScalarProperty Name="Pay_Rate" ColumnName="Pay_Rate" />
+          <ScalarProperty Name="Inactive_Flag" ColumnName="Inactive_Flag" />
+          <ScalarProperty Name="User_Profile_ID" ColumnName="User_Profile_ID" />
+          <ScalarProperty Name="Punch_Out_Flag" ColumnName="Punch_Out_Flag" />
+          <ScalarProperty Name="Ticket_Writer_Format_File_Concrete" ColumnName="Ticket_Writer_Format_File_Concrete" />
+          <ScalarProperty Name="Ticket_Writer_Format_File_Aggregate" ColumnName="Ticket_Writer_Format_File_Aggregate" />
+          <ScalarProperty Name="Ticket_Writer_Format_File_Block" ColumnName="Ticket_Writer_Format_File_Block" />
+          <ScalarProperty Name="CompanyID" ColumnName="CompanyID" />
+          <ScalarProperty Name="MsModificationDate" ColumnName="MsModificationDate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ErrorLogs">
+      <EntityTypeMapping TypeName="Entities.ErrorLog">
+        <MappingFragment StoreEntitySet="ErrorLog">
+          <ScalarProperty Name="ErrorID" ColumnName="ErrorID" />
+          <ScalarProperty Name="CompanyID" ColumnName="CompanyID" />
+          <ScalarProperty Name="ErrorMessage" ColumnName="ErrorMessage" />
+          <ScalarProperty Name="ErrorMethod" ColumnName="ErrorMethod" />
+          <ScalarProperty Name="ErrorSource" ColumnName="ErrorSource" />
+          <ScalarProperty Name="ErrorDate" ColumnName="ErrorDate" />
+          <ScalarProperty Name="MsModificationDate" ColumnName="MsModificationDate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="EventFrequencies">
+      <EntityTypeMapping TypeName="Entities.EventFrequency">
+        <MappingFragment StoreEntitySet="EventFrequency">
+          <ScalarProperty Name="EventFrequencyID" ColumnName="EventFrequencyID" />
+          <ScalarProperty Name="CompanyID" ColumnName="CompanyID" />
+          <ScalarProperty Name="EventFrequency1" ColumnName="EventFrequency" />
+          <ScalarProperty Name="MsModificationDate" ColumnName="MsModificationDate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="EventStatus">
+      <EntityTypeMapping TypeName="Entities.EventStatu">
+        <MappingFragment StoreEntitySet="EventStatus">
+          <ScalarProperty Name="EventStatusID" ColumnName="EventStatusID" />
+          <ScalarProperty Name="EventStatus" ColumnName="EventStatus" />
+          <ScalarProperty Name="MsModificationDate" ColumnName="MsModificationDate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="FieldConfigs">
+      <EntityTypeMapping TypeName="Entities.FieldConfig">
+        <MappingFragment StoreEntitySet="FieldConfigs">
+          <ScalarProperty Name="FieldConfigID" ColumnName="FieldConfigID" />
+          <ScalarProperty Name="CompanyID" ColumnName="CompanyID" />
+          <ScalarProperty Name="FieldID" ColumnName="FieldID" />
+          <ScalarProperty Name="Required" ColumnName="Required" />
+          <ScalarProperty Name="Hidden" ColumnName="Hidden" />
+          <ScalarProperty Name="FormID" ColumnName="FormID" />
+          <ScalarProperty Name="MsModificationDate" ColumnName="MsModificationDate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="LinesOfBusinesses">
+      <EntityTypeMapping TypeName="Entities.LinesOfBusiness">
+        <MappingFragment StoreEntitySet="LinesOfBusiness">
+          <ScalarProperty Name="LineOfBusinessID" ColumnName="LineOfBusinessID" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="CompanyID" ColumnName="CompanyID" />
+          <ScalarProperty Name="LineOfBusinessCode" ColumnName="LineOfBusinessCode" />
+          <ScalarProperty Name="MsModificationDate" ColumnName="MsModificationDate" />
+          <ScalarProperty Name="SortOrder" ColumnName="SortOrder" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Locations_Divisions_Lookup">
+      <EntityTypeMapping TypeName="Entities.Locations_Divisions_Lookup">
+        <MappingFragment StoreEntitySet="Locations_Divisions_Lookup">
+          <ScalarProperty Name="RecordID" ColumnName="RecordID" />
+          <ScalarProperty Name="DivisionID" ColumnName="DivisionID" />
+          <ScalarProperty Name="Division_Name" ColumnName="Division_Name" />
+          <ScalarProperty Name="Location1_Code" ColumnName="Location1_Code" />
+          <ScalarProperty Name="Location1_Name" ColumnName="Location1_Name" />
+          <ScalarProperty Name="MsModificationDate" ColumnName="MsModificationDate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Logins">
+      <EntityTypeMapping TypeName="Entities.Login">
+        <MappingFragment StoreEntitySet="Logins">
+          <ScalarProperty Name="LoginID" ColumnName="LoginID" />
+          <ScalarProperty Name="UserID" ColumnName="UserID" />
+          <ScalarProperty Name="LoginDate" ColumnName="LoginDate" />
+          <ScalarProperty Name="MsModificationDate" ColumnName="MsModificationDate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="LostReasons">
+      <EntityTypeMapping TypeName="Entities.LostReason">
+        <MappingFragment StoreEntitySet="LostReasons">
+          <ScalarProperty Name="LostReasonID" ColumnName="LostReasonID" />
+          <ScalarProperty Name="CompanyID" ColumnName="CompanyID" />
+          <ScalarProperty Name="LostReason1" ColumnName="LostReason" />
+          <ScalarProperty Name="Inserted" ColumnName="Inserted" />
+          <ScalarProperty Name="Modified" ColumnName="Modified" />
+          <ScalarProperty Name="MsModificationDate" ColumnName="MsModificationDate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ManagersSalesmen">
+      <EntityTypeMapping TypeName="Entities.ManagersSalesman">
+        <MappingFragment StoreEntitySet="ManagersSalesmen">
+          <ScalarProperty Name="ManagerUserID" ColumnName="ManagerUserID" />
+          <ScalarProperty Name="ManagerID" ColumnName="ManagerID" />
+          <ScalarProperty Name="SalesmanID" ColumnName="SalesmanID" />
+          <ScalarProperty Name="MsModificationDate" ColumnName="MsModificationDate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="OracleExports">
+      <EntityTypeMapping TypeName="Entities.OracleExport">
+        <MappingFragment StoreEntitySet="OracleExports">
+          <ScalarProperty Name="OracleExportID" ColumnName="OracleExportID" />
+          <ScalarProperty Name="CompanyID" ColumnName="CompanyID" />
+          <ScalarProperty Name="DateExported" ColumnName="DateExported" />
+          <ScalarProperty Name="Status" ColumnName="Status" />
+          <ScalarProperty Name="Message" ColumnName="Message" />
+          <ScalarProperty Name="MsModificationDate" ColumnName="MsModificationDate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="OrderDetails">
+      <EntityTypeMapping TypeName="Entities.OrderDetail">
+        <MappingFragment StoreEntitySet="OrderDetails">
+          <ScalarProperty Name="OrderDetailID" ColumnName="OrderDetailID" />
+          <ScalarProperty Name="OrderID" ColumnName="OrderID" />
+          <ScalarProperty Name="ProductID" ColumnName="ProductID" />
+          <ScalarProperty Name="Quantity" ColumnName="Quantity" />
+          <ScalarProperty Name="UnitPrice" ColumnName="UnitPrice" />
+          <ScalarProperty Name="Mix" ColumnName="Mix" />
+          <ScalarProperty Name="MsModificationDate" ColumnName="MsModificationDate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Orders">
+      <EntityTypeMapping TypeName="Entities.Order">
+        <MappingFragment StoreEntitySet="Orders">
+          <ScalarProperty Name="OrderID" ColumnName="OrderID" />
+          <ScalarProperty Name="CompanyID" ColumnName="CompanyID" />
+          <ScalarProperty Name="ProjectID" ColumnName="ProjectID" />
+          <ScalarProperty Name="year" ColumnName="year" />
+          <ScalarProperty Name="month" ColumnName="month" />
+          <ScalarProperty Name="YardsActual" ColumnName="YardsActual" />
+          <ScalarProperty Name="MaterialCost" ColumnName="MaterialCost" />
+          <ScalarProperty Name="DollarsActual" ColumnName="DollarsActual" />
+          <ScalarProperty Name="OrderDate" ColumnName="OrderDate" />
+          <ScalarProperty Name="ShipDate" ColumnName="ShipDate" />
+          <ScalarProperty Name="YardsTicketed" ColumnName="YardsTicketed" />
+          <ScalarProperty Name="OnJobTime" ColumnName="OnJobTime" />
+          <ScalarProperty Name="LocationID" ColumnName="LocationID" />
+          <ScalarProperty Name="ProspectID" ColumnName="ProspectID" />
+          <ScalarProperty Name="DispatchOrderID" ColumnName="DispatchOrderID" />
+          <ScalarProperty Name="DispatchOrderNumber" ColumnName="DispatchOrderNumber" />
+          <ScalarProperty Name="SalesmanCode" ColumnName="SalesmanCode" />
+          <ScalarProperty Name="Inserted" ColumnName="Inserted" />
+          <ScalarProperty Name="Modified" ColumnName="Modified" />
+          <ScalarProperty Name="MsModificationDate" ColumnName="MsModificationDate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PaymentTerms">
+      <EntityTypeMapping TypeName="Entities.PaymentTerm">
+        <MappingFragment StoreEntitySet="PaymentTerms">
+          <ScalarProperty Name="Terms_Discount_ID" ColumnName="Terms_Discount_ID" />
+          <ScalarProperty Name="CompanyID" ColumnName="CompanyID" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="MsModificationDate" ColumnName="MsModificationDate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Plants">
+      <EntityTypeMapping TypeName="Entities.Plant">
+        <MappingFragment StoreEntitySet="Plant">
+          <ScalarProperty Name="PlantID" ColumnName="PlantID" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="SystechCompNbr" ColumnName="SystechCompNbr" />
+          <ScalarProperty Name="CSPlantCode" ColumnName="CSPlantCode" />
+          <ScalarProperty Name="CSShortName" ColumnName="CSShortName" />
+          <ScalarProperty Name="CSPlantName" ColumnName="CSPlantName" />
+          <ScalarProperty Name="Inserted" ColumnName="Inserted" />
+          <ScalarProperty Name="Modified" ColumnName="Modified" />
+          <ScalarProperty Name="Inactive_Flag" ColumnName="Inactive_Flag" />
+          <ScalarProperty Name="DivisionID" ColumnName="DivisionID" />
+          <ScalarProperty Name="PlantCost" ColumnName="PlantCost" />
+          <ScalarProperty Name="DeliveryCost" ColumnName="DeliveryCost" />
+          <ScalarProperty Name="MaterialCost" ColumnName="MaterialCost" />
+          <ScalarProperty Name="SGACost" ColumnName="SGACost" />
+          <ScalarProperty Name="Address1" ColumnName="Address1" />
+          <ScalarProperty Name="Address2" ColumnName="Address2" />
+          <ScalarProperty Name="Address3" ColumnName="Address3" />
+          <ScalarProperty Name="City" ColumnName="City" />
+          <ScalarProperty Name="State" ColumnName="State" />
+          <ScalarProperty Name="Zip" ColumnName="Zip" />
+          <ScalarProperty Name="Longitude" ColumnName="Longitude" />
+          <ScalarProperty Name="Latitude" ColumnName="Latitude" />
+          <ScalarProperty Name="LineOfBusinessID" ColumnName="LineOfBusinessID" />
+          <ScalarProperty Name="Country" ColumnName="Country" />
+          <ScalarProperty Name="ProductLineID" ColumnName="ProductLineID" />
+          <ScalarProperty Name="MsModificationDate" ColumnName="MsModificationDate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PlantLinesOfBusinesses">
+      <EntityTypeMapping TypeName="Entities.PlantLinesOfBusiness">
+        <MappingFragment StoreEntitySet="PlantLinesOfBusiness">
+          <ScalarProperty Name="PlantLineOfBusinessID" ColumnName="PlantLineOfBusinessID" />
+          <ScalarProperty Name="PlantID" ColumnName="PlantID" />
+          <ScalarProperty Name="LineOfBusinessID" ColumnName="LineOfBusinessID" />
+          <ScalarProperty Name="MsModificationDate" ColumnName="MsModificationDate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PlantProductPrices">
+      <EntityTypeMapping TypeName="Entities.PlantProductPrice">
+        <MappingFragment StoreEntitySet="PlantProductPrices">
+          <ScalarProperty Name="PlantProductPriceID" ColumnName="PlantProductPriceID" />
+          <ScalarProperty Name="PlantID" ColumnName="PlantID" />
+          <ScalarProperty Name="ProductID" ColumnName="ProductID" />
+          <ScalarProperty Name="ListPrice" ColumnName="ListPrice" />
+          <ScalarProperty Name="PriceListID" ColumnName="PriceListID" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="PriceExtensionCode" ColumnName="PriceExtensionCode" />
+          <ScalarProperty Name="MsModificationDate" ColumnName="MsModificationDate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PlantProducts">
+      <EntityTypeMapping TypeName="Entities.PlantProduct">
+        <MappingFragment StoreEntitySet="PlantProducts">
+          <ScalarProperty Name="PlantProductID" ColumnName="PlantProductID" />
+          <ScalarProperty Name="PlantID" ColumnName="PlantID" />
+          <ScalarProperty Name="ProductID" ColumnName="ProductID" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="MsModificationDate" ColumnName="MsModificationDate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PourSchedules">
+      <EntityTypeMapping TypeName="Entities.PourSchedule">
+        <MappingFragment StoreEntitySet="PourSchedule">
+          <ScalarProperty Name="PourID" ColumnName="PourID" />
+          <ScalarProperty Name="ProjectID" ColumnName="ProjectID" />
+          <ScalarProperty Name="defaultschedule" ColumnName="defaultschedule" />
+          <ScalarProperty Name="ProjectProductID" ColumnName="ProjectProductID" />
+          <ScalarProperty Name="PourScheduleName" ColumnName="PourScheduleName" />
+          <ScalarProperty Name="MsModificationDate" ColumnName="MsModificationDate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Products">
+      <EntityTypeMapping TypeName="Entities.Product">
+        <MappingFragment StoreEntitySet="Product">
+          <ScalarProperty Name="ProductID" ColumnName="ProductID" />
+          <ScalarProperty Name="CompanyID" ColumnName="CompanyID" />
+          <ScalarProperty Name="ProductName" ColumnName="ProductName" />
+          <ScalarProperty Name="Active" ColumnName="Active" />
+          <ScalarProperty Name="AU_ID" ColumnName="AU_ID" />
+          <ScalarProperty Name="UnitOfMeasureID" ColumnName="UnitOfMeasureID" />
+          <ScalarProperty Name="ProductTypeID" ColumnName="ProductTypeID" />
+          <ScalarProperty Name="ConnectionCode" ColumnName="ConnectionCode" />
+          <ScalarProperty Name="ITEM_CAT" ColumnName="ITEM_CAT" />
+          <ScalarProperty Name="Product_Code" ColumnName="Product_Code" />
+          <ScalarProperty Name="Inserted" ColumnName="Inserted" />
+          <ScalarProperty Name="Modified" ColumnName="Modified" />
+          <ScalarProperty Name="extProduct_Code" ColumnName="extProduct_Code" />
+          <ScalarProperty Name="IsSellable" ColumnName="IsSellable" />
+          <ScalarProperty Name="MsModificationDate" ColumnName="MsModificationDate" />
+          <ScalarProperty Name="ProductShortName" ColumnName="ProductShortName" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ProductLineLineOfBusinesses">
+      <EntityTypeMapping TypeName="Entities.ProductLineLineOfBusiness">
+        <MappingFragment StoreEntitySet="ProductLineLineOfBusiness">
+          <ScalarProperty Name="ProductLineLineOfBusinessID" ColumnName="ProductLineLineOfBusinessID" />
+          <ScalarProperty Name="ProductLineID" ColumnName="ProductLineID" />
+          <ScalarProperty Name="LineOfBusinessID" ColumnName="LineOfBusinessID" />
+          <ScalarProperty Name="Inserted" ColumnName="Inserted" />
+          <ScalarProperty Name="Modified" ColumnName="Modified" />
+          <ScalarProperty Name="MsModificationDate" ColumnName="MsModificationDate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ProductLines">
+      <EntityTypeMapping TypeName="Entities.ProductLine">
+        <MappingFragment StoreEntitySet="ProductLines">
+          <ScalarProperty Name="ProductLineID" ColumnName="ProductLineID" />
+          <ScalarProperty Name="CompanyID" ColumnName="CompanyID" />
+          <ScalarProperty Name="ProductLineCode" ColumnName="ProductLineCode" />
+          <ScalarProperty Name="ProductLineName" ColumnName="ProductLineName" />
+          <ScalarProperty Name="Active" ColumnName="Active" />
+          <ScalarProperty Name="extProductLineCode" ColumnName="extProductLineCode" />
+          <ScalarProperty Name="LineOfBusinessID" ColumnName="LineOfBusinessID" />
+          <ScalarProperty Name="MsModificationDate" ColumnName="MsModificationDate" />
+          <ScalarProperty Name="SortOrder" ColumnName="SortOrder" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ProductTemplates">
+      <EntityTypeMapping TypeName="Entities.ProductTemplate">
+        <MappingFragment StoreEntitySet="ProductTemplates">
+          <ScalarProperty Name="ProductTemplateID" ColumnName="ProductTemplateID" />
+          <ScalarProperty Name="TemplateName" ColumnName="TemplateName" />
+          <ScalarProperty Name="CompanyUserID" ColumnName="CompanyUserID" />
+          <ScalarProperty Name="Inactive" ColumnName="Inactive" />
+          <ScalarProperty Name="MsModificationDate" ColumnName="MsModificationDate" />
+          <ScalarProperty Name="Shared" ColumnName="Shared" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ProductTypes">
+      <EntityTypeMapping TypeName="Entities.ProductType">
+        <MappingFragment StoreEntitySet="ProductTypes">
+          <ScalarProperty Name="ProductTypeID" ColumnName="ProductTypeID" />
+          <ScalarProperty Name="CompanyID" ColumnName="CompanyID" />
+          <ScalarProperty Name="ProductTypeName" ColumnName="ProductTypeName" />
+          <ScalarProperty Name="ProductLineID" ColumnName="ProductLineID" />
+          <ScalarProperty Name="ListPrice" ColumnName="ListPrice" />
+          <ScalarProperty Name="UOMID" ColumnName="UOMID" />
+          <ScalarProperty Name="Inactive" ColumnName="Inactive" />
+          <ScalarProperty Name="ProductTypeCode" ColumnName="ProductTypeCode" />
+          <ScalarProperty Name="MsModificationDate" ColumnName="MsModificationDate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ProductUsages">
+      <EntityTypeMapping TypeName="Entities.ProductUsage">
+        <MappingFragment StoreEntitySet="ProductUsage">
+          <ScalarProperty Name="ProductUsageID" ColumnName="ProductUsageID" />
+          <ScalarProperty Name="CompanyID" ColumnName="CompanyID" />
+          <ScalarProperty Name="ProductUsageName" ColumnName="ProductUsageName" />
+          <ScalarProperty Name="ProductLineID" ColumnName="ProductLineID" />
+          <ScalarProperty Name="MsModificationDate" ColumnName="MsModificationDate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ProjectBidderCharges">
+      <EntityTypeMapping TypeName="Entities.ProjectBidderCharge">
+        <MappingFragment StoreEntitySet="ProjectBidderCharges">
+          <ScalarProperty Name="ProjectBidderChargeID" ColumnName="ProjectBidderChargeID" />
+          <ScalarProperty Name="ProjectBidderID" ColumnName="ProjectBidderID" />
+          <ScalarProperty Name="ProductLineID" ColumnName="ProductLineID" />
+          <ScalarProperty Name="ProjectChargeID" ColumnName="ProjectChargeID" />
+          <ScalarProperty Name="MsModificationDate" ColumnName="MsModificationDate" />
+          <ScalarProperty Name="Exported" ColumnName="Exported" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ProjectBidderNotes">
+      <EntityTypeMapping TypeName="Entities.ProjectBidderNote">
+        <MappingFragment StoreEntitySet="ProjectBidderNotes">
+          <ScalarProperty Name="NoteID" ColumnName="NoteID" />
+          <ScalarProperty Name="ProjectBidderID" ColumnName="ProjectBidderID" />
+          <ScalarProperty Name="Note" ColumnName="Note" />
+          <ScalarProperty Name="Inserted" ColumnName="Inserted" />
+          <ScalarProperty Name="CreatedBy" ColumnName="CreatedBy" />
+          <ScalarProperty Name="MsModificationDate" ColumnName="MsModificationDate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ProjectBidderProducts">
+      <EntityTypeMapping TypeName="Entities.ProjectBidderProduct">
+        <MappingFragment StoreEntitySet="ProjectBidderProducts">
+          <ScalarProperty Name="ProjectBidderProductID" ColumnName="ProjectBidderProductID" />
+          <ScalarProperty Name="ProjectBidderID" ColumnName="ProjectBidderID" />
+          <ScalarProperty Name="ProjectProductID" ColumnName="ProjectProductID" />
+          <ScalarProperty Name="Price" ColumnName="Price" />
+          <ScalarProperty Name="Inserted" ColumnName="Inserted" />
+          <ScalarProperty Name="Modified" ColumnName="Modified" />
+          <ScalarProperty Name="SameAsList" ColumnName="SameAsList" />
+          <ScalarProperty Name="Forecasted" ColumnName="Forecasted" />
+          <ScalarProperty Name="Freight" ColumnName="Freight" />
+          <ScalarProperty Name="FreightPay" ColumnName="FreightPay" />
+          <ScalarProperty Name="ListPrice" ColumnName="ListPrice" />
+          <ScalarProperty Name="CustomerPrice" ColumnName="CustomerPrice" />
+          <ScalarProperty Name="Exported" ColumnName="Exported" />
+          <ScalarProperty Name="Quantity" ColumnName="Quantity" />
+          <ScalarProperty Name="StatusID" ColumnName="StatusID" />
+          <ScalarProperty Name="LineNbr" ColumnName="LineNbr" />
+          <ScalarProperty Name="MsModificationDate" ColumnName="MsModificationDate" />
+          <ScalarProperty Name="PreviousPrice" ColumnName="PreviousPrice" />
+          <ScalarProperty Name="PreviousDeliveredPrice" ColumnName="PreviousDeliveredPrice" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ProjectBidders">
+      <EntityTypeMapping TypeName="Entities.ProjectBidder">
+        <MappingFragment StoreEntitySet="ProjectBidders">
+          <ScalarProperty Name="ProjectBidderID" ColumnName="ProjectBidderID" />
+          <ScalarProperty Name="ProjectID" ColumnName="ProjectID" />
+          <ScalarProperty Name="ProspectID" ColumnName="ProspectID" />
+          <ScalarProperty Name="Quoted" ColumnName="Quoted" />
+          <ScalarProperty Name="StatusSub" ColumnName="StatusSub" />
+          <ScalarProperty Name="QuoteDate" ColumnName="QuoteDate" />
+          <ScalarProperty Name="NotLIkeLIst" ColumnName="NotLIkeLIst" />
+          <ScalarProperty Name="StatusID" ColumnName="StatusID" />
+          <ScalarProperty Name="PlantID" ColumnName="PlantID" />
+          <ScalarProperty Name="ProjectCode" ColumnName="ProjectCode" />
+          <ScalarProperty Name="StartDate" ColumnName="StartDate" />
+          <ScalarProperty Name="EndDate" ColumnName="EndDate" />
+          <ScalarProperty Name="PONumber" ColumnName="PONumber" />
+          <ScalarProperty Name="MinLoadCharge" ColumnName="MinLoadCharge" />
+          <ScalarProperty Name="SundryCharge" ColumnName="SundryCharge" />
+          <ScalarProperty Name="SeasonalCharge" ColumnName="SeasonalCharge" />
+          <ScalarProperty Name="UnloadCharge" ColumnName="UnloadCharge" />
+          <ScalarProperty Name="CustJobNbr" ColumnName="CustJobNbr" />
+          <ScalarProperty Name="MsModificationDate" ColumnName="MsModificationDate" />
+          <ScalarProperty Name="EffectiveDate" ColumnName="EffectiveDate" />
+          <ScalarProperty Name="DateLastExported" ColumnName="DateLastExported" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ProjectBidderStatuses">
+      <EntityTypeMapping TypeName="Entities.ProjectBidderStatus">
+        <MappingFragment StoreEntitySet="ProjectBidderStatuses">
+          <ScalarProperty Name="ProjectBidderStatusID" ColumnName="ProjectBidderStatusID" />
+          <ScalarProperty Name="StatusName" ColumnName="StatusName" />
+          <ScalarProperty Name="MsModificationDate" ColumnName="MsModificationDate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ProjectCharges">
+      <EntityTypeMapping TypeName="Entities.ProjectCharge">
+        <MappingFragment StoreEntitySet="ProjectCharges">
+          <ScalarProperty Name="ChargeID" ColumnName="ChargeID" />
+          <ScalarProperty Name="ChargeName" ColumnName="ChargeName" />
+          <ScalarProperty Name="ChargeType" ColumnName="ChargeType" />
+          <ScalarProperty Name="ChargeCode" ColumnName="ChargeCode" />
+          <ScalarProperty Name="CompanyID" ColumnName="CompanyID" />
+          <ScalarProperty Name="MsModificationDate" ColumnName="MsModificationDate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ProjectChargeTypes">
+      <EntityTypeMapping TypeName="Entities.ProjectChargeType">
+        <MappingFragment StoreEntitySet="ProjectChargeTypes">
+          <ScalarProperty Name="ChargeTypeID" ColumnName="ChargeTypeID" />
+          <ScalarProperty Name="ChargeTypeName" ColumnName="ChargeTypeName" />
+          <ScalarProperty Name="MsModificationDate" ColumnName="MsModificationDate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ProjectDistances">
+      <EntityTypeMapping TypeName="Entities.ProjectDistance">
+        <MappingFragment StoreEntitySet="ProjectDistances">
+          <ScalarProperty Name="ProjectDistanceID" ColumnName="ProjectDistanceID" />
+          <ScalarProperty Name="ProjectID" ColumnName="ProjectID" />
+          <ScalarProperty Name="PlantID" ColumnName="PlantID" />
+          <ScalarProperty Name="Miles" ColumnName="Miles" />
+          <ScalarProperty Name="Kilometers" ColumnName="Kilometers" />
+          <ScalarProperty Name="MsModificationDate" ColumnName="MsModificationDate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ProjectHistorySummaries">
+      <EntityTypeMapping TypeName="Entities.ProjectHistorySummary">
+        <MappingFragment StoreEntitySet="ProjectHistorySummary">
+          <ScalarProperty Name="ProjectHistorySummaryID" ColumnName="ProjectHistorySummaryID" />
+          <ScalarProperty Name="ProspectID" ColumnName="ProspectID" />
+          <ScalarProperty Name="PROJ_CODE" ColumnName="PROJ_CODE" />
+          <ScalarProperty Name="PROJ_NAME" ColumnName="PROJ_NAME" />
+          <ScalarProperty Name="SETUP_DATE" ColumnName="SETUP_DATE" />
+          <ScalarProperty Name="EXPIR_DATE" ColumnName="EXPIR_DATE" />
+          <ScalarProperty Name="Orders" ColumnName="Orders" />
+          <ScalarProperty Name="Tickets" ColumnName="Tickets" />
+          <ScalarProperty Name="Yards" ColumnName="Yards" />
+          <ScalarProperty Name="AvgPrice" ColumnName="AvgPrice" />
+          <ScalarProperty Name="Amount" ColumnName="Amount" />
+          <ScalarProperty Name="MsModificationDate" ColumnName="MsModificationDate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ProjectMapQtyRanges1">
+      <EntityTypeMapping TypeName="Entities.ProjectMapQtyRange">
+        <MappingFragment StoreEntitySet="ProjectMapQtyRanges">
+          <ScalarProperty Name="ProjectMapQtyRangeID" ColumnName="ProjectMapQtyRangeID" />
+          <ScalarProperty Name="CompanyID" ColumnName="CompanyID" />
+          <ScalarProperty Name="Min" ColumnName="Min" />
+          <ScalarProperty Name="Max" ColumnName="Max" />
+          <ScalarProperty Name="DisplayText" ColumnName="DisplayText" />
+          <ScalarProperty Name="MsModificationDate" ColumnName="MsModificationDate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ProjectNotes">
+      <EntityTypeMapping TypeName="Entities.ProjectNote">
+        <MappingFragment StoreEntitySet="ProjectNotes">
+          <ScalarProperty Name="NoteID" ColumnName="NoteID" />
+          <ScalarProperty Name="ProjectID" ColumnName="ProjectID" />
+          <ScalarProperty Name="Note" ColumnName="Note" />
+          <ScalarProperty Name="Inserted" ColumnName="Inserted" />
+          <ScalarProperty Name="CreatedBy" ColumnName="CreatedBy" />
+          <ScalarProperty Name="MsModificationDate" ColumnName="MsModificationDate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ProjectProducts">
+      <EntityTypeMapping TypeName="Entities.ProjectProduct">
+        <MappingFragment StoreEntitySet="ProjectProducts">
+          <ScalarProperty Name="ProjectProductID" ColumnName="ProjectProductID" />
+          <ScalarProperty Name="ProjectID" ColumnName="ProjectID" />
+          <ScalarProperty Name="Qty" ColumnName="Qty" />
+          <ScalarProperty Name="UOMID" ColumnName="UOMID" />
+          <ScalarProperty Name="Inserted" ColumnName="Inserted" />
+          <ScalarProperty Name="Modified" ColumnName="Modified" />
+          <ScalarProperty Name="Price" ColumnName="Price" />
+          <ScalarProperty Name="ProductLineID" ColumnName="ProductLineID" />
+          <ScalarProperty Name="ProductTypeID" ColumnName="ProductTypeID" />
+          <ScalarProperty Name="ProductID" ColumnName="ProductID" />
+          <ScalarProperty Name="PsiID" ColumnName="PsiID" />
+          <ScalarProperty Name="ProductUsageID" ColumnName="ProductUsageID" />
+          <ScalarProperty Name="Note" ColumnName="Note" />
+          <ScalarProperty Name="Forecasted" ColumnName="Forecasted" />
+          <ScalarProperty Name="PlantID" ColumnName="PlantID" />
+          <ScalarProperty Name="Freight" ColumnName="Freight" />
+          <ScalarProperty Name="FreightPay" ColumnName="FreightPay" />
+          <ScalarProperty Name="CompetitorPrice" ColumnName="CompetitorPrice" />
+          <ScalarProperty Name="Category" ColumnName="Category" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="LineOfBusinessID" ColumnName="LineOfBusinessID" />
+          <ScalarProperty Name="StatusID" ColumnName="StatusID" />
+          <ScalarProperty Name="MsModificationDate" ColumnName="MsModificationDate" />
+          <ScalarProperty Name="PriceExtensionCode" ColumnName="PriceExtensionCode" />
+          <ScalarProperty Name="LostReasonID" ColumnName="LostReasonID" />
+          <ScalarProperty Name="LostToID" ColumnName="LostToID" />
+          <ScalarProperty Name="LostNote" ColumnName="LostNote" />
+          <ScalarProperty Name="MIX_MATL_CLASS_ID" ColumnName="MIX_MATL_CLASS_ID" />
+          <ScalarProperty Name="BATCH_BOOK_TYPE" ColumnName="BATCH_BOOK_TYPE" />
+          <ScalarProperty Name="CONSISTENCE_CODE" ColumnName="CONSISTENCE_CODE" />
+          <ScalarProperty Name="WORKABILITY_VALUE" ColumnName="WORKABILITY_VALUE" />
+          <ScalarProperty Name="WORKABLITY_BASE_UOM" ColumnName="WORKABLITY_BASE_UOM" />
+          <ScalarProperty Name="STRGTH_VALUE" ColumnName="STRGTH_VALUE" />
+          <ScalarProperty Name="STRGTH_CODE" ColumnName="STRGTH_CODE" />
+          <ScalarProperty Name="USER_MIN_CEM_CONT" ColumnName="USER_MIN_CEM_CONT" />
+          <ScalarProperty Name="USER_MAX_WATER_CEM_RATIO" ColumnName="USER_MAX_WATER_CEM_RATIO" />
+          <ScalarProperty Name="CEM_CLASS_ID" ColumnName="CEM_CLASS_ID" />
+          <ScalarProperty Name="REPLACEMENT_PCT" ColumnName="REPLACEMENT_PCT" />
+          <ScalarProperty Name="AGG_SIZE" ColumnName="AGG_SIZE" />
+          <ScalarProperty Name="COARSE_AGG_CLASS_ID" ColumnName="COARSE_AGG_CLASS_ID" />
+          <ScalarProperty Name="FINE_AGG_CLASS_ID" ColumnName="FINE_AGG_CLASS_ID" />
+          <ScalarProperty Name="ADMIX_CLASS_ID" ColumnName="ADMIX_CLASS_ID" />
+          <ScalarProperty Name="WATER_CLASS_ID" ColumnName="WATER_CLASS_ID" />
+          <ScalarProperty Name="CHLORIDE_CLASS" ColumnName="CHLORIDE_CLASS" />
+          <ScalarProperty Name="LIFETIME" ColumnName="LIFETIME" />
+          <ScalarProperty Name="ENVIRO_CLASS_CODE" ColumnName="ENVIRO_CLASS_CODE" />
+          <ScalarProperty Name="TQS_ITEMCODE" ColumnName="TQS_ITEMCODE" />
+          <ScalarProperty Name="TQS_DESC" ColumnName="TQS_DESC" />
+          <ScalarProperty Name="TQS_SHORT_DESC" ColumnName="TQS_SHORT_DESC" />
+          <ScalarProperty Name="SortOrder" ColumnName="SortOrder" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Projects">
+      <EntityTypeMapping TypeName="Entities.Project">
+        <MappingFragment StoreEntitySet="Projects">
+          <ScalarProperty Name="ProjectID" ColumnName="ProjectID" />
+          <ScalarProperty Name="Private" ColumnName="Private" />
+          <ScalarProperty Name="OwnerID" ColumnName="OwnerID" />
+          <ScalarProperty Name="CompanyID" ColumnName="CompanyID" />
+          <ScalarProperty Name="ProjectName" ColumnName="ProjectName" />
+          <ScalarProperty Name="ProjectTypeID" ColumnName="ProjectTypeID" />
+          <ScalarProperty Name="StatusID" ColumnName="StatusID" />
+          <ScalarProperty Name="StatusChangeDate" ColumnName="StatusChangeDate" />
+          <ScalarProperty Name="SourceID" ColumnName="SourceID" />
+          <ScalarProperty Name="Active" ColumnName="Active" />
+          <ScalarProperty Name="Address1" ColumnName="Address1" />
+          <ScalarProperty Name="Address2" ColumnName="Address2" />
+          <ScalarProperty Name="Address3" ColumnName="Address3" />
+          <ScalarProperty Name="City" ColumnName="City" />
+          <ScalarProperty Name="County" ColumnName="County" />
+          <ScalarProperty Name="State" ColumnName="State" />
+          <ScalarProperty Name="ZipCode" ColumnName="ZipCode" />
+          <ScalarProperty Name="PlantID" ColumnName="PlantID" />
+          <ScalarProperty Name="SalespersonID" ColumnName="SalespersonID" />
+          <ScalarProperty Name="BidDate" ColumnName="BidDate" />
+          <ScalarProperty Name="LostReasonID" ColumnName="LostReasonID" />
+          <ScalarProperty Name="LostToID" ColumnName="LostToID" />
+          <ScalarProperty Name="LostNote" ColumnName="LostNote" />
+          <ScalarProperty Name="Inserted" ColumnName="Inserted" />
+          <ScalarProperty Name="Modified" ColumnName="Modified" />
+          <ScalarProperty Name="PrevStatus" ColumnName="PrevStatus" />
+          <ScalarProperty Name="Exported" ColumnName="Exported" />
+          <ScalarProperty Name="WinningProjectBidderID" ColumnName="WinningProjectBidderID" />
+          <ScalarProperty Name="StartDate" ColumnName="StartDate" />
+          <ScalarProperty Name="EndDate" ColumnName="EndDate" />
+          <ScalarProperty Name="TotalYards" ColumnName="TotalYards" />
+          <ScalarProperty Name="ConnectionCode" ColumnName="ConnectionCode" />
+          <ScalarProperty Name="CustCode" ColumnName="CustCode" />
+          <ScalarProperty Name="ProjectCode" ColumnName="ProjectCode" />
+          <ScalarProperty Name="Longitude" ColumnName="Longitude" />
+          <ScalarProperty Name="Latitude" ColumnName="Latitude" />
+          <ScalarProperty Name="GeofenceID" ColumnName="GeofenceID" />
+          <ScalarProperty Name="Country" ColumnName="Country" />
+          <ScalarProperty Name="ProjectDescription" ColumnName="ProjectDescription" />
+          <ScalarProperty Name="ZoneCodeID" ColumnName="ZoneCodeID" />
+          <ScalarProperty Name="MsModificationDate" ColumnName="MsModificationDate" />
+          <ScalarProperty Name="DateLastExported" ColumnName="DateLastExported" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ProjectTypes">
+      <EntityTypeMapping TypeName="Entities.ProjectType">
+        <MappingFragment StoreEntitySet="ProjectTypes">
+          <ScalarProperty Name="ProjectTypeID" ColumnName="ProjectTypeID" />
+          <ScalarProperty Name="CompanyID" ColumnName="CompanyID" />
+          <ScalarProperty Name="ConnectionCode" ColumnName="ConnectionCode" />
+          <ScalarProperty Name="SANL_Code" ColumnName="SANL_Code" />
+          <ScalarProperty Name="ProjectTypeName" ColumnName="ProjectTypeName" />
+          <ScalarProperty Name="ShortName" ColumnName="ShortName" />
+          <ScalarProperty Name="Inserted" ColumnName="Inserted" />
+          <ScalarProperty Name="Modified" ColumnName="Modified" />
+          <ScalarProperty Name="MsModificationDate" ColumnName="MsModificationDate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ProspectNotes">
+      <EntityTypeMapping TypeName="Entities.ProspectNote">
+        <MappingFragment StoreEntitySet="ProspectNotes">
+          <ScalarProperty Name="ProspectNoteID" ColumnName="ProspectNoteID" />
+          <ScalarProperty Name="ProspectID" ColumnName="ProspectID" />
+          <ScalarProperty Name="Note" ColumnName="Note" />
+          <ScalarProperty Name="Inserted" ColumnName="Inserted" />
+          <ScalarProperty Name="CreatedBy" ColumnName="CreatedBy" />
+          <ScalarProperty Name="Subject" ColumnName="Subject" />
+          <ScalarProperty Name="Source" ColumnName="Source" />
+          <ScalarProperty Name="MsModificationDate" ColumnName="MsModificationDate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ProspectQuantities">
+      <EntityTypeMapping TypeName="Entities.ProspectQuantity">
+        <MappingFragment StoreEntitySet="ProspectQuantities">
+          <ScalarProperty Name="ProspectQuantityID" ColumnName="ProspectQuantityID" />
+          <ScalarProperty Name="ProspectID" ColumnName="ProspectID" />
+          <ScalarProperty Name="ProductID" ColumnName="ProductID" />
+          <ScalarProperty Name="Quantity" ColumnName="Quantity" />
+          <ScalarProperty Name="MsModificationDate" ColumnName="MsModificationDate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ProspectRegions">
+      <EntityTypeMapping TypeName="Entities.ProspectRegion">
+        <MappingFragment StoreEntitySet="ProspectRegions">
+          <ScalarProperty Name="ProspectRegionID" ColumnName="ProspectRegionID" />
+          <ScalarProperty Name="ProspectID" ColumnName="ProspectID" />
+          <ScalarProperty Name="PlantID" ColumnName="PlantID" />
+          <ScalarProperty Name="MsModificationDate" ColumnName="MsModificationDate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Prospects">
+      <EntityTypeMapping TypeName="Entities.Prospect">
+        <MappingFragment StoreEntitySet="Prospects">
+          <ScalarProperty Name="ProspectID" ColumnName="ProspectID" />
+          <ScalarProperty Name="Private" ColumnName="Private" />
+          <ScalarProperty Name="OwnerID" ColumnName="OwnerID" />
+          <ScalarProperty Name="CompanyID" ColumnName="CompanyID" />
+          <ScalarProperty Name="ProspectName" ColumnName="ProspectName" />
+          <ScalarProperty Name="Inserted" ColumnName="Inserted" />
+          <ScalarProperty Name="Modified" ColumnName="Modified" />
+          <ScalarProperty Name="ProspectCode" ColumnName="ProspectCode" />
+          <ScalarProperty Name="ConnectionCode" ColumnName="ConnectionCode" />
+          <ScalarProperty Name="LocalCustNumber" ColumnName="LocalCustNumber" />
+          <ScalarProperty Name="LocalCustName" ColumnName="LocalCustName" />
+          <ScalarProperty Name="IsCustomer" ColumnName="IsCustomer" />
+          <ScalarProperty Name="Credit_Status_ID" ColumnName="Credit_Status_ID" />
+          <ScalarProperty Name="CustomerStatus" ColumnName="CustomerStatus" />
+          <ScalarProperty Name="Sales" ColumnName="Sales" />
+          <ScalarProperty Name="Margin" ColumnName="Margin" />
+          <ScalarProperty Name="MaterialMargin" ColumnName="MaterialMargin" />
+          <ScalarProperty Name="JobCount" ColumnName="JobCount" />
+          <ScalarProperty Name="Address1" ColumnName="Address1" />
+          <ScalarProperty Name="Address2" ColumnName="Address2" />
+          <ScalarProperty Name="City" ColumnName="City" />
+          <ScalarProperty Name="State" ColumnName="State" />
+          <ScalarProperty Name="Zip" ColumnName="Zip" />
+          <ScalarProperty Name="Phone" ColumnName="Phone" />
+          <ScalarProperty Name="HighestBalance" ColumnName="HighestBalance" />
+          <ScalarProperty Name="AvgInvoiceAmt" ColumnName="AvgInvoiceAmt" />
+          <ScalarProperty Name="AvgDaysToPay" ColumnName="AvgDaysToPay" />
+          <ScalarProperty Name="AvgDaysPastDue" ColumnName="AvgDaysPastDue" />
+          <ScalarProperty Name="TotalDue" ColumnName="TotalDue" />
+          <ScalarProperty Name="ZeroTo30Days" ColumnName="ZeroTo30Days" />
+          <ScalarProperty Name="ThirtyOneTo60Days" ColumnName="ThirtyOneTo60Days" />
+          <ScalarProperty Name="SixtyOneTo90Days" ColumnName="SixtyOneTo90Days" />
+          <ScalarProperty Name="NinetyOneTo120Days" ColumnName="NinetyOneTo120Days" />
+          <ScalarProperty Name="Over120Days" ColumnName="Over120Days" />
+          <ScalarProperty Name="CustomerTypeID" ColumnName="CustomerTypeID" />
+          <ScalarProperty Name="StatementFrequency" ColumnName="StatementFrequency" />
+          <ScalarProperty Name="FinanceRate" ColumnName="FinanceRate" />
+          <ScalarProperty Name="PaymentTermsID" ColumnName="PaymentTermsID" />
+          <ScalarProperty Name="SalesmanCode" ColumnName="SalesmanCode" />
+          <ScalarProperty Name="Fax" ColumnName="Fax" />
+          <ScalarProperty Name="WebSite" ColumnName="WebSite" />
+          <ScalarProperty Name="AvgRevenue" ColumnName="AvgRevenue" />
+          <ScalarProperty Name="NumberofEmployees" ColumnName="NumberofEmployees" />
+          <ScalarProperty Name="CompanyOriginDate" ColumnName="CompanyOriginDate" />
+          <ScalarProperty Name="BusinessTypeID" ColumnName="BusinessTypeID" />
+          <ScalarProperty Name="Notes" ColumnName="Notes" />
+          <ScalarProperty Name="Country" ColumnName="Country" />
+          <ScalarProperty Name="PORequired" ColumnName="PORequired" />
+          <ScalarProperty Name="MsModificationDate" ColumnName="MsModificationDate" />
+          <ScalarProperty Name="Address3" ColumnName="Address3" />
+          <ScalarProperty Name="AccountCategoryDescr" ColumnName="AccountCategoryDescr" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PSIs">
+      <EntityTypeMapping TypeName="Entities.PSI">
+        <MappingFragment StoreEntitySet="PSI">
+          <ScalarProperty Name="PsiID" ColumnName="PsiID" />
+          <ScalarProperty Name="CompanyID" ColumnName="CompanyID" />
+          <ScalarProperty Name="PsiName" ColumnName="PsiName" />
+          <ScalarProperty Name="MsModificationDate" ColumnName="MsModificationDate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="QuoteDetails">
+      <EntityTypeMapping TypeName="Entities.QuoteDetail">
+        <MappingFragment StoreEntitySet="QuoteDetails">
+          <ScalarProperty Name="QuoteDetailID" ColumnName="QuoteDetailID" />
+          <ScalarProperty Name="QuoteID" ColumnName="QuoteID" />
+          <ScalarProperty Name="ProjectProductID" ColumnName="ProjectProductID" />
+          <ScalarProperty Name="Price" ColumnName="Price" />
+          <ScalarProperty Name="Qty" ColumnName="Qty" />
+          <ScalarProperty Name="Freight" ColumnName="Freight" />
+          <ScalarProperty Name="FreightPay" ColumnName="FreightPay" />
+          <ScalarProperty Name="ListPrice" ColumnName="ListPrice" />
+          <ScalarProperty Name="CustomerPrice" ColumnName="CustomerPrice" />
+          <ScalarProperty Name="MsModificationDate" ColumnName="MsModificationDate" />
+          <ScalarProperty Name="Note" ColumnName="Note" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="QuoteGuids">
+      <EntityTypeMapping TypeName="Entities.QuoteGuid">
+        <MappingFragment StoreEntitySet="QuoteGuids">
+          <ScalarProperty Name="QuoteGuidID" ColumnName="QuoteGuidID" />
+          <ScalarProperty Name="QuoteHTML" ColumnName="QuoteHTML" />
+          <ScalarProperty Name="MsModificationDate" ColumnName="MsModificationDate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Quotes">
+      <EntityTypeMapping TypeName="Entities.Quote">
+        <MappingFragment StoreEntitySet="Quotes">
+          <ScalarProperty Name="QuoteID" ColumnName="QuoteID" />
+          <ScalarProperty Name="ProjectBidderID" ColumnName="ProjectBidderID" />
+          <ScalarProperty Name="ContactID" ColumnName="ContactID" />
+          <ScalarProperty Name="TermsID" ColumnName="TermsID" />
+          <ScalarProperty Name="Attention" ColumnName="Attention" />
+          <ScalarProperty Name="Phone" ColumnName="Phone" />
+          <ScalarProperty Name="CellPhone" ColumnName="CellPhone" />
+          <ScalarProperty Name="Fax" ColumnName="Fax" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="QuoteDate" ColumnName="QuoteDate" />
+          <ScalarProperty Name="FirmUntilDate" ColumnName="FirmUntilDate" />
+          <ScalarProperty Name="QuoteSequenceNumber" ColumnName="QuoteSequenceNumber" />
+          <ScalarProperty Name="QuoteTypeID" ColumnName="QuoteTypeID" />
+          <ScalarProperty Name="DateCreated" ColumnName="DateCreated" />
+          <ScalarProperty Name="DateLastModified" ColumnName="DateLastModified" />
+          <ScalarProperty Name="CustomerQuoteID" ColumnName="CustomerQuoteID" />
+          <ScalarProperty Name="Exported" ColumnName="Exported" />
+          <ScalarProperty Name="EscalationDate" ColumnName="EscalationDate" />
+          <ScalarProperty Name="EscalationDate2" ColumnName="EscalationDate2" />
+          <ScalarProperty Name="EscalationDate3" ColumnName="EscalationDate3" />
+          <ScalarProperty Name="EscalationDate4" ColumnName="EscalationDate4" />
+          <ScalarProperty Name="QuoteNote" ColumnName="QuoteNote" />
+          <ScalarProperty Name="EscalationAmount" ColumnName="EscalationAmount" />
+          <ScalarProperty Name="EscalationAmount2" ColumnName="EscalationAmount2" />
+          <ScalarProperty Name="EscalationAmount3" ColumnName="EscalationAmount3" />
+          <ScalarProperty Name="EscalationAmount4" ColumnName="EscalationAmount4" />
+          <ScalarProperty Name="QuoteStatusID" ColumnName="QuoteStatusID" />
+          <ScalarProperty Name="Notes" ColumnName="Notes" />
+          <ScalarProperty Name="CreatedByID" ColumnName="CreatedByID" />
+          <ScalarProperty Name="OrderDate" ColumnName="OrderDate" />
+          <ScalarProperty Name="StartOrderDate" ColumnName="StartOrderDate" />
+          <ScalarProperty Name="ExpireOrderDate" ColumnName="ExpireOrderDate" />
+          <ScalarProperty Name="VehicleTypeID_1" ColumnName="VehicleTypeID_1" />
+          <ScalarProperty Name="VehicleTypeID_2" ColumnName="VehicleTypeID_2" />
+          <ScalarProperty Name="VehicleTypeID_3" ColumnName="VehicleTypeID_3" />
+          <ScalarProperty Name="VehicleTypeID_4" ColumnName="VehicleTypeID_4" />
+          <ScalarProperty Name="VehicleTypeID_5" ColumnName="VehicleTypeID_5" />
+          <ScalarProperty Name="CustomerOrderID" ColumnName="CustomerOrderID" />
+          <ScalarProperty Name="PurchaseOrder" ColumnName="PurchaseOrder" />
+          <ScalarProperty Name="BeginDate" ColumnName="BeginDate" />
+          <ScalarProperty Name="AllowBeforeStart" ColumnName="AllowBeforeStart" />
+          <ScalarProperty Name="AllowAfterEnd" ColumnName="AllowAfterEnd" />
+          <ScalarProperty Name="AllowExceedQty" ColumnName="AllowExceedQty" />
+          <ScalarProperty Name="AllowExceedLoads" ColumnName="AllowExceedLoads" />
+          <ScalarProperty Name="AllowAfterComplete" ColumnName="AllowAfterComplete" />
+          <ScalarProperty Name="MsModificationDate" ColumnName="MsModificationDate" />
+          <ScalarProperty Name="SalespersonID" ColumnName="SalespersonID" />
+          <ScalarProperty Name="ApexNoteID" ColumnName="ApexNoteID" />
+          <ScalarProperty Name="DateLastEmailed" ColumnName="DateLastEmailed" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="QuoteSections">
+      <EntityTypeMapping TypeName="Entities.QuoteSection">
+        <MappingFragment StoreEntitySet="QuoteSections">
+          <ScalarProperty Name="QuoteSectionID" ColumnName="QuoteSectionID" />
+          <ScalarProperty Name="QuoteTypeID" ColumnName="QuoteTypeID" />
+          <ScalarProperty Name="SectionContent" ColumnName="SectionContent" />
+          <ScalarProperty Name="PositionTop" ColumnName="PositionTop" />
+          <ScalarProperty Name="PositionLeft" ColumnName="PositionLeft" />
+          <ScalarProperty Name="Height" ColumnName="Height" />
+          <ScalarProperty Name="Width" ColumnName="Width" />
+          <ScalarProperty Name="IsProducts" ColumnName="IsProducts" />
+          <ScalarProperty Name="IsSurcharges" ColumnName="IsSurcharges" />
+          <ScalarProperty Name="IsLogo" ColumnName="IsLogo" />
+          <ScalarProperty Name="IsCompanyInfo" ColumnName="IsCompanyInfo" />
+          <ScalarProperty Name="IsCustomerInfo" ColumnName="IsCustomerInfo" />
+          <ScalarProperty Name="IsSignature" ColumnName="IsSignature" />
+          <ScalarProperty Name="IsExpiration" ColumnName="IsExpiration" />
+          <ScalarProperty Name="IsQuoteNumber" ColumnName="IsQuoteNumber" />
+          <ScalarProperty Name="ProductColumns" ColumnName="ProductColumns" />
+          <ScalarProperty Name="MsModificationDate" ColumnName="MsModificationDate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="QuoteStandardClauses">
+      <EntityTypeMapping TypeName="Entities.QuoteStandardClaus">
+        <MappingFragment StoreEntitySet="QuoteStandardClauses">
+          <ScalarProperty Name="QuoteStandardClauseID" ColumnName="QuoteStandardClauseID" />
+          <ScalarProperty Name="QuoteID" ColumnName="QuoteID" />
+          <ScalarProperty Name="StandardClauseID" ColumnName="StandardClauseID" />
+          <ScalarProperty Name="MsModificationDate" ColumnName="MsModificationDate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="QuoteStatuses">
+      <EntityTypeMapping TypeName="Entities.QuoteStatus">
+        <MappingFragment StoreEntitySet="QuoteStatuses">
+          <ScalarProperty Name="QuoteStatusID" ColumnName="QuoteStatusID" />
+          <ScalarProperty Name="QuoteStatusName" ColumnName="QuoteStatusName" />
+          <ScalarProperty Name="SortOrder" ColumnName="SortOrder" />
+          <ScalarProperty Name="MsModificationDate" ColumnName="MsModificationDate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="QuoteSurcharges">
+      <EntityTypeMapping TypeName="Entities.QuoteSurcharge">
+        <MappingFragment StoreEntitySet="QuoteSurcharges">
+          <ScalarProperty Name="QuoteSurchargeID" ColumnName="QuoteSurchargeID" />
+          <ScalarProperty Name="QuoteID" ColumnName="QuoteID" />
+          <ScalarProperty Name="SurchargeID" ColumnName="SurchargeID" />
+          <ScalarProperty Name="Rate" ColumnName="Rate" />
+          <ScalarProperty Name="MsModificationDate" ColumnName="MsModificationDate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="QuoteTypes">
+      <EntityTypeMapping TypeName="Entities.QuoteType">
+        <MappingFragment StoreEntitySet="QuoteTypes">
+          <ScalarProperty Name="QuoteTypeID" ColumnName="QuoteTypeID" />
+          <ScalarProperty Name="CompanyID" ColumnName="CompanyID" />
+          <ScalarProperty Name="QuoteTypeName" ColumnName="QuoteTypeName" />
+          <ScalarProperty Name="Section1" ColumnName="Section1" />
+          <ScalarProperty Name="Section2" ColumnName="Section2" />
+          <ScalarProperty Name="Section3" ColumnName="Section3" />
+          <ScalarProperty Name="ImageLocation" ColumnName="ImageLocation" />
+          <ScalarProperty Name="Inactive" ColumnName="Inactive" />
+          <ScalarProperty Name="UseForImport" ColumnName="UseForImport" />
+          <ScalarProperty Name="MsModificationDate" ColumnName="MsModificationDate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Roles">
+      <EntityTypeMapping TypeName="Entities.Role">
+        <MappingFragment StoreEntitySet="Roles">
+          <ScalarProperty Name="RoleID" ColumnName="RoleID" />
+          <ScalarProperty Name="RoleDescription" ColumnName="RoleDescription" />
+          <ScalarProperty Name="MsModificationDate" ColumnName="MsModificationDate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SalespersonContacts">
+      <EntityTypeMapping TypeName="Entities.SalespersonContact">
+        <MappingFragment StoreEntitySet="SalespersonContacts">
+          <ScalarProperty Name="SalesPersonContactID" ColumnName="SalesPersonContactID" />
+          <ScalarProperty Name="SalesPersonID" ColumnName="SalesPersonID" />
+          <ScalarProperty Name="ContactID" ColumnName="ContactID" />
+          <ScalarProperty Name="MsModificationDate" ColumnName="MsModificationDate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SalesPersonRegions">
+      <EntityTypeMapping TypeName="Entities.SalesPersonRegion">
+        <MappingFragment StoreEntitySet="SalesPersonRegions">
+          <ScalarProperty Name="SalesPersonRegionID" ColumnName="SalesPersonRegionID" />
+          <ScalarProperty Name="SalesPersonID" ColumnName="SalesPersonID" />
+          <ScalarProperty Name="PlantID" ColumnName="PlantID" />
+          <ScalarProperty Name="MsModificationDate" ColumnName="MsModificationDate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ScheduleDetails">
+      <EntityTypeMapping TypeName="Entities.ScheduleDetail">
+        <MappingFragment StoreEntitySet="ScheduleDetails">
+          <ScalarProperty Name="ScheduleID" ColumnName="ScheduleID" />
+          <ScalarProperty Name="PourScheduleID" ColumnName="PourScheduleID" />
+          <ScalarProperty Name="year" ColumnName="year" />
+          <ScalarProperty Name="monthYds" ColumnName="monthYds" />
+          <ScalarProperty Name="monthPercent" ColumnName="monthPercent" />
+          <ScalarProperty Name="Month" ColumnName="Month" />
+          <ScalarProperty Name="MsModificationDate" ColumnName="MsModificationDate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ScheduleItems">
+      <EntityTypeMapping TypeName="Entities.ScheduleItem">
+        <MappingFragment StoreEntitySet="ScheduleItems">
+          <ScalarProperty Name="ScheduleItemID" ColumnName="ScheduleItemID" />
+          <ScalarProperty Name="ScheduleID" ColumnName="ScheduleID" />
+          <ScalarProperty Name="Quantity" ColumnName="Quantity" />
+          <ScalarProperty Name="Month" ColumnName="Month" />
+          <ScalarProperty Name="MsModificationDate" ColumnName="MsModificationDate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Schedules">
+      <EntityTypeMapping TypeName="Entities.Schedule">
+        <MappingFragment StoreEntitySet="Schedules">
+          <ScalarProperty Name="ScheduleID" ColumnName="ScheduleID" />
+          <ScalarProperty Name="ProjectProductID" ColumnName="ProjectProductID" />
+          <ScalarProperty Name="Active" ColumnName="Active" />
+          <ScalarProperty Name="MsModificationDate" ColumnName="MsModificationDate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Sources">
+      <EntityTypeMapping TypeName="Entities.Source">
+        <MappingFragment StoreEntitySet="Sources">
+          <ScalarProperty Name="SourceID" ColumnName="SourceID" />
+          <ScalarProperty Name="CompanyID" ColumnName="CompanyID" />
+          <ScalarProperty Name="SourceName" ColumnName="SourceName" />
+          <ScalarProperty Name="Inserted" ColumnName="Inserted" />
+          <ScalarProperty Name="Modified" ColumnName="Modified" />
+          <ScalarProperty Name="Inactive" ColumnName="Inactive" />
+          <ScalarProperty Name="MsModificationDate" ColumnName="MsModificationDate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SourceSystems">
+      <EntityTypeMapping TypeName="Entities.SourceSystem">
+        <MappingFragment StoreEntitySet="SourceSystem">
+          <ScalarProperty Name="SourceSystemID" ColumnName="SourceSystemID" />
+          <ScalarProperty Name="SystemName" ColumnName="SystemName" />
+          <ScalarProperty Name="MsModificationDate" ColumnName="MsModificationDate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="StandardClauses">
+      <EntityTypeMapping TypeName="Entities.StandardClaus">
+        <MappingFragment StoreEntitySet="StandardClauses">
+          <ScalarProperty Name="StandardClauseID" ColumnName="StandardClauseID" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="StandardClauseText" ColumnName="StandardClauseText" />
+          <ScalarProperty Name="ProductLineID" ColumnName="ProductLineID" />
+          <ScalarProperty Name="PlantID" ColumnName="PlantID" />
+          <ScalarProperty Name="ProductID" ColumnName="ProductID" />
+          <ScalarProperty Name="Inactive" ColumnName="Inactive" />
+          <ScalarProperty Name="CompanyID" ColumnName="CompanyID" />
+          <ScalarProperty Name="ProductUsageID" ColumnName="ProductUsageID" />
+          <ScalarProperty Name="MsModificationDate" ColumnName="MsModificationDate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Statuses">
+      <EntityTypeMapping TypeName="Entities.Status">
+        <MappingFragment StoreEntitySet="Statuses">
+          <ScalarProperty Name="StatusID" ColumnName="StatusID" />
+          <ScalarProperty Name="StatusName" ColumnName="StatusName" />
+          <ScalarProperty Name="Inserted" ColumnName="Inserted" />
+          <ScalarProperty Name="Modified" ColumnName="Modified" />
+          <ScalarProperty Name="MsModificationDate" ColumnName="MsModificationDate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Surcharges">
+      <EntityTypeMapping TypeName="Entities.Surcharge">
+        <MappingFragment StoreEntitySet="Surcharges">
+          <ScalarProperty Name="SurchargeID" ColumnName="SurchargeID" />
+          <ScalarProperty Name="CompanyID" ColumnName="CompanyID" />
+          <ScalarProperty Name="SurchargeName" ColumnName="SurchargeName" />
+          <ScalarProperty Name="Rate" ColumnName="Rate" />
+          <ScalarProperty Name="UOMID" ColumnName="UOMID" />
+          <ScalarProperty Name="Active" ColumnName="Active" />
+          <ScalarProperty Name="QuoteDefault" ColumnName="QuoteDefault" />
+          <ScalarProperty Name="QuoteSelectable" ColumnName="QuoteSelectable" />
+          <ScalarProperty Name="PlantID" ColumnName="PlantID" />
+          <ScalarProperty Name="LocalSurchargeID" ColumnName="LocalSurchargeID" />
+          <ScalarProperty Name="MsModificationDate" ColumnName="MsModificationDate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TemplatedProducts">
+      <EntityTypeMapping TypeName="Entities.TemplatedProduct">
+        <MappingFragment StoreEntitySet="TemplatedProducts">
+          <ScalarProperty Name="TemplatedProductID" ColumnName="TemplatedProductID" />
+          <ScalarProperty Name="ProductTemplateID" ColumnName="ProductTemplateID" />
+          <ScalarProperty Name="ProductTypeID" ColumnName="ProductTypeID" />
+          <ScalarProperty Name="ProductID" ColumnName="ProductID" />
+          <ScalarProperty Name="PlantID" ColumnName="PlantID" />
+          <ScalarProperty Name="ProductUsageID" ColumnName="ProductUsageID" />
+          <ScalarProperty Name="LineOfBusinessID" ColumnName="LineOfBusinessID" />
+          <ScalarProperty Name="ProductLineID" ColumnName="ProductLineID" />
+          <ScalarProperty Name="Qty" ColumnName="Qty" />
+          <ScalarProperty Name="Price" ColumnName="Price" />
+          <ScalarProperty Name="Freight" ColumnName="Freight" />
+          <ScalarProperty Name="FreightPay" ColumnName="FreightPay" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="IncludeInForecast" ColumnName="IncludeInForecast" />
+          <ScalarProperty Name="Note" ColumnName="Note" />
+          <ScalarProperty Name="Category" ColumnName="Category" />
+          <ScalarProperty Name="MsModificationDate" ColumnName="MsModificationDate" />
+          <ScalarProperty Name="UOMID" ColumnName="UOMID" />
+          <ScalarProperty Name="PriceExtensionCode" ColumnName="PriceExtensionCode" />
+          <ScalarProperty Name="MIX_MATL_CLASS_ID" ColumnName="MIX_MATL_CLASS_ID" />
+          <ScalarProperty Name="BATCH_BOOK_TYPE" ColumnName="BATCH_BOOK_TYPE" />
+          <ScalarProperty Name="CONSISTENCE_CODE" ColumnName="CONSISTENCE_CODE" />
+          <ScalarProperty Name="WORKABILITY_VALUE" ColumnName="WORKABILITY_VALUE" />
+          <ScalarProperty Name="WORKABLITY_BASE_UOM" ColumnName="WORKABLITY_BASE_UOM" />
+          <ScalarProperty Name="STRGTH_VALUE" ColumnName="STRGTH_VALUE" />
+          <ScalarProperty Name="STRGTH_CODE" ColumnName="STRGTH_CODE" />
+          <ScalarProperty Name="USER_MIN_CEM_CONT" ColumnName="USER_MIN_CEM_CONT" />
+          <ScalarProperty Name="USER_MAX_WATER_CEM_RATIO" ColumnName="USER_MAX_WATER_CEM_RATIO" />
+          <ScalarProperty Name="CEM_CLASS_ID" ColumnName="CEM_CLASS_ID" />
+          <ScalarProperty Name="REPLACEMENT_PCT" ColumnName="REPLACEMENT_PCT" />
+          <ScalarProperty Name="AGG_SIZE" ColumnName="AGG_SIZE" />
+          <ScalarProperty Name="COARSE_AGG_CLASS_ID" ColumnName="COARSE_AGG_CLASS_ID" />
+          <ScalarProperty Name="FINE_AGG_CLASS_ID" ColumnName="FINE_AGG_CLASS_ID" />
+          <ScalarProperty Name="ADMIX_CLASS_ID" ColumnName="ADMIX_CLASS_ID" />
+          <ScalarProperty Name="WATER_CLASS_ID" ColumnName="WATER_CLASS_ID" />
+          <ScalarProperty Name="CHLORIDE_CLASS" ColumnName="CHLORIDE_CLASS" />
+          <ScalarProperty Name="LIFETIME" ColumnName="LIFETIME" />
+          <ScalarProperty Name="ENVIRO_CLASS_CODE" ColumnName="ENVIRO_CLASS_CODE" />
+          <ScalarProperty Name="TQS_ITEMCODE" ColumnName="TQS_ITEMCODE" />
+          <ScalarProperty Name="TQS_DESC" ColumnName="TQS_DESC" />
+          <ScalarProperty Name="TQS_SHORT_DESC" ColumnName="TQS_SHORT_DESC" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TemplatedProductTypes">
+      <EntityTypeMapping TypeName="Entities.TemplatedProductType">
+        <MappingFragment StoreEntitySet="TemplatedProductTypes">
+          <ScalarProperty Name="TemplatedProductTypeID" ColumnName="TemplatedProductTypeID" />
+          <ScalarProperty Name="ProductTemplateID" ColumnName="ProductTemplateID" />
+          <ScalarProperty Name="ProductTypeID" ColumnName="ProductTypeID" />
+          <ScalarProperty Name="Qty" ColumnName="Qty" />
+          <ScalarProperty Name="Price" ColumnName="Price" />
+          <ScalarProperty Name="IncludeQtyInForecast" ColumnName="IncludeQtyInForecast" />
+          <ScalarProperty Name="ProductUsageID" ColumnName="ProductUsageID" />
+          <ScalarProperty Name="Note" ColumnName="Note" />
+          <ScalarProperty Name="MsModificationDate" ColumnName="MsModificationDate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Terms_Discount">
+      <EntityTypeMapping TypeName="Entities.Terms_Discount">
+        <MappingFragment StoreEntitySet="Terms_Discount">
+          <ScalarProperty Name="Terms_Discount_ID" ColumnName="Terms_Discount_ID" />
+          <ScalarProperty Name="CompanyID" ColumnName="CompanyID" />
+          <ScalarProperty Name="Discount_Days" ColumnName="Discount_Days" />
+          <ScalarProperty Name="Discount_Amount" ColumnName="Discount_Amount" />
+          <ScalarProperty Name="Net_Days" ColumnName="Net_Days" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="Discount_Taxes" ColumnName="Discount_Taxes" />
+          <ScalarProperty Name="Percent_Flag" ColumnName="Percent_Flag" />
+          <ScalarProperty Name="MsModificationDate" ColumnName="MsModificationDate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TimeCalendars">
+      <EntityTypeMapping TypeName="Entities.TimeCalendar">
+        <MappingFragment StoreEntitySet="TimeCalendar">
+          <ScalarProperty Name="CalendarDateId" ColumnName="CalendarDateId" />
+          <ScalarProperty Name="CalendarDate" ColumnName="CalendarDate" />
+          <ScalarProperty Name="DayEnd" ColumnName="DayEnd" />
+          <ScalarProperty Name="FirstDayOfMonth" ColumnName="FirstDayOfMonth" />
+          <ScalarProperty Name="LastDayOfMonth" ColumnName="LastDayOfMonth" />
+          <ScalarProperty Name="MonthEnd" ColumnName="MonthEnd" />
+          <ScalarProperty Name="FirstDayOfQtr" ColumnName="FirstDayOfQtr" />
+          <ScalarProperty Name="LastDayOfQtr" ColumnName="LastDayOfQtr" />
+          <ScalarProperty Name="QuarterEnd" ColumnName="QuarterEnd" />
+          <ScalarProperty Name="Month" ColumnName="Month" />
+          <ScalarProperty Name="Day" ColumnName="Day" />
+          <ScalarProperty Name="Year" ColumnName="Year" />
+          <ScalarProperty Name="DayOfWeek" ColumnName="DayOfWeek" />
+          <ScalarProperty Name="DayOfQtr" ColumnName="DayOfQtr" />
+          <ScalarProperty Name="DayOfYear" ColumnName="DayOfYear" />
+          <ScalarProperty Name="WeekOfYear" ColumnName="WeekOfYear" />
+          <ScalarProperty Name="Quarter" ColumnName="Quarter" />
+          <ScalarProperty Name="LastDayOfMonthFlag" ColumnName="LastDayOfMonthFlag" />
+          <ScalarProperty Name="FirstDayOfQtrFlag" ColumnName="FirstDayOfQtrFlag" />
+          <ScalarProperty Name="LastDayOfQtrFlag" ColumnName="LastDayOfQtrFlag" />
+          <ScalarProperty Name="MonthAbbrev" ColumnName="MonthAbbrev" />
+          <ScalarProperty Name="DayAbbrev" ColumnName="DayAbbrev" />
+          <ScalarProperty Name="MonthName" ColumnName="MonthName" />
+          <ScalarProperty Name="DayName" ColumnName="DayName" />
+          <ScalarProperty Name="CompanyHoliday" ColumnName="CompanyHoliday" />
+          <ScalarProperty Name="BusinessDay" ColumnName="BusinessDay" />
+          <ScalarProperty Name="MonthYearAbbrev" ColumnName="MonthYearAbbrev" />
+          <ScalarProperty Name="QtrYearAbbrev" ColumnName="QtrYearAbbrev" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TQS_bbty">
+      <EntityTypeMapping TypeName="Entities.TQS_bbty">
+        <MappingFragment StoreEntitySet="TQS_bbty">
+          <ScalarProperty Name="CompanyID" ColumnName="CompanyID" />
+          <ScalarProperty Name="batch_book_type" ColumnName="batch_book_type" />
+          <ScalarProperty Name="descr" ColumnName="descr" />
+          <ScalarProperty Name="short_descr" ColumnName="short_descr" />
+          <ScalarProperty Name="wet_batch_time" ColumnName="wet_batch_time" />
+          <ScalarProperty Name="dry_batch_time" ColumnName="dry_batch_time" />
+          <ScalarProperty Name="water_chute_wash_flag" ColumnName="water_chute_wash_flag" />
+          <ScalarProperty Name="update_date" ColumnName="update_date" />
+          <ScalarProperty Name="u_version" ColumnName="u_version" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TQS_chlc">
+      <EntityTypeMapping TypeName="Entities.TQS_chlc">
+        <MappingFragment StoreEntitySet="TQS_chlc">
+          <ScalarProperty Name="chloride_class_code" ColumnName="chloride_class_code" />
+          <ScalarProperty Name="descr" ColumnName="descr" />
+          <ScalarProperty Name="short_descr" ColumnName="short_descr" />
+          <ScalarProperty Name="update_date" ColumnName="update_date" />
+          <ScalarProperty Name="u_version" ColumnName="u_version" />
+          <ScalarProperty Name="CompanyID" ColumnName="CompanyID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TQS_cnfc">
+      <EntityTypeMapping TypeName="Entities.TQS_cnfc">
+        <MappingFragment StoreEntitySet="TQS_cnfc">
+          <ScalarProperty Name="CompanyID" ColumnName="CompanyID" />
+          <ScalarProperty Name="structure_segment_type" ColumnName="structure_segment_type" />
+          <ScalarProperty Name="structure_segment_number" ColumnName="structure_segment_number" />
+          <ScalarProperty Name="structure_segment_mask" ColumnName="structure_segment_mask" />
+          <ScalarProperty Name="structure_segment_id" ColumnName="structure_segment_id" />
+          <ScalarProperty Name="structure_segment_length" ColumnName="structure_segment_length" />
+          <ScalarProperty Name="update_date" ColumnName="update_date" />
+          <ScalarProperty Name="u_version" ColumnName="u_version" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TQS_encd">
+      <EntityTypeMapping TypeName="Entities.TQS_encd">
+        <MappingFragment StoreEntitySet="TQS_encd">
+          <ScalarProperty Name="CompanyID" ColumnName="CompanyID" />
+          <ScalarProperty Name="enviro_class_code" ColumnName="enviro_class_code" />
+          <ScalarProperty Name="cem_matl_class_id" ColumnName="cem_matl_class_id" />
+          <ScalarProperty Name="agg_size" ColumnName="agg_size" />
+          <ScalarProperty Name="min_cem_cont" ColumnName="min_cem_cont" />
+          <ScalarProperty Name="max_water_cem_ratio" ColumnName="max_water_cem_ratio" />
+          <ScalarProperty Name="printable_field" ColumnName="printable_field" />
+          <ScalarProperty Name="update_date" ColumnName="update_date" />
+          <ScalarProperty Name="u_version" ColumnName="u_version" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TQS_envr">
+      <EntityTypeMapping TypeName="Entities.TQS_envr">
+        <MappingFragment StoreEntitySet="TQS_envr">
+          <ScalarProperty Name="CompanyID" ColumnName="CompanyID" />
+          <ScalarProperty Name="enviro_class_code" ColumnName="enviro_class_code" />
+          <ScalarProperty Name="descr" ColumnName="descr" />
+          <ScalarProperty Name="short_descr" ColumnName="short_descr" />
+          <ScalarProperty Name="update_date" ColumnName="update_date" />
+          <ScalarProperty Name="u_version" ColumnName="u_version" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TQS_mtac">
+      <EntityTypeMapping TypeName="Entities.TQS_mtac">
+        <MappingFragment StoreEntitySet="TQS_mtac">
+          <ScalarProperty Name="CompanyID" ColumnName="CompanyID" />
+          <ScalarProperty Name="matl_class_id" ColumnName="matl_class_id" />
+          <ScalarProperty Name="matl_class_type" ColumnName="matl_class_type" />
+          <ScalarProperty Name="agg_size" ColumnName="agg_size" />
+          <ScalarProperty Name="dflt_cem_cont" ColumnName="dflt_cem_cont" />
+          <ScalarProperty Name="min_cem_cont" ColumnName="min_cem_cont" />
+          <ScalarProperty Name="max_cem_cont" ColumnName="max_cem_cont" />
+          <ScalarProperty Name="update_date" ColumnName="update_date" />
+          <ScalarProperty Name="u_version" ColumnName="u_version" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TQS_mtbt">
+      <EntityTypeMapping TypeName="Entities.TQS_mtbt">
+        <MappingFragment StoreEntitySet="TQS_mtbt">
+          <ScalarProperty Name="CompanyID" ColumnName="CompanyID" />
+          <ScalarProperty Name="matl_class_id" ColumnName="matl_class_id" />
+          <ScalarProperty Name="matl_class_type" ColumnName="matl_class_type" />
+          <ScalarProperty Name="batch_book_type" ColumnName="batch_book_type" />
+          <ScalarProperty Name="batch_book_type_dflt_flag" ColumnName="batch_book_type_dflt_flag" />
+          <ScalarProperty Name="dflt_consistence_code" ColumnName="dflt_consistence_code" />
+          <ScalarProperty Name="min_workability_value" ColumnName="min_workability_value" />
+          <ScalarProperty Name="max_workability_value" ColumnName="max_workability_value" />
+          <ScalarProperty Name="update_date" ColumnName="update_date" />
+          <ScalarProperty Name="u_version" ColumnName="u_version" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TQS_mtlc">
+      <EntityTypeMapping TypeName="Entities.TQS_mtlc">
+        <MappingFragment StoreEntitySet="TQS_mtlc">
+          <ScalarProperty Name="CompanyID" ColumnName="CompanyID" />
+          <ScalarProperty Name="matl_class_id" ColumnName="matl_class_id" />
+          <ScalarProperty Name="matl_class_type" ColumnName="matl_class_type" />
+          <ScalarProperty Name="descr" ColumnName="descr" />
+          <ScalarProperty Name="short_descr" ColumnName="short_descr" />
+          <ScalarProperty Name="base_matl_class_id" ColumnName="base_matl_class_id" />
+          <ScalarProperty Name="item_code_segment_id" ColumnName="item_code_segment_id" />
+          <ScalarProperty Name="min_replacement_pct" ColumnName="min_replacement_pct" />
+          <ScalarProperty Name="max_replacement_pct" ColumnName="max_replacement_pct" />
+          <ScalarProperty Name="cem_price_chart" ColumnName="cem_price_chart" />
+          <ScalarProperty Name="strgth_modifier" ColumnName="strgth_modifier" />
+          <ScalarProperty Name="dflt_order_qty" ColumnName="dflt_order_qty" />
+          <ScalarProperty Name="dflt_order_qty_uom" ColumnName="dflt_order_qty_uom" />
+          <ScalarProperty Name="admix_water_adj_type" ColumnName="admix_water_adj_type" />
+          <ScalarProperty Name="item_cat" ColumnName="item_cat" />
+          <ScalarProperty Name="batch_book_mix_flag" ColumnName="batch_book_mix_flag" />
+          <ScalarProperty Name="strgth_allowed_flag" ColumnName="strgth_allowed_flag" />
+          <ScalarProperty Name="dflt_strgth" ColumnName="dflt_strgth" />
+          <ScalarProperty Name="min_strgth" ColumnName="min_strgth" />
+          <ScalarProperty Name="max_strgth" ColumnName="max_strgth" />
+          <ScalarProperty Name="water_cem_ratio_allowed_flag" ColumnName="water_cem_ratio_allowed_flag" />
+          <ScalarProperty Name="dflt_water_cem_ratio" ColumnName="dflt_water_cem_ratio" />
+          <ScalarProperty Name="min_water_cem_ratio" ColumnName="min_water_cem_ratio" />
+          <ScalarProperty Name="max_water_cem_ratio" ColumnName="max_water_cem_ratio" />
+          <ScalarProperty Name="cem_cont_allowed_flag" ColumnName="cem_cont_allowed_flag" />
+          <ScalarProperty Name="dflt_cem_cont" ColumnName="dflt_cem_cont" />
+          <ScalarProperty Name="min_cem_cont" ColumnName="min_cem_cont" />
+          <ScalarProperty Name="max_cem_cont" ColumnName="max_cem_cont" />
+          <ScalarProperty Name="max_agg_size" ColumnName="max_agg_size" />
+          <ScalarProperty Name="notify_msg" ColumnName="notify_msg" />
+          <ScalarProperty Name="enviro_class_allowed_flag" ColumnName="enviro_class_allowed_flag" />
+          <ScalarProperty Name="dflt_enviro_class_code" ColumnName="dflt_enviro_class_code" />
+          <ScalarProperty Name="consistence_allowed_flag" ColumnName="consistence_allowed_flag" />
+          <ScalarProperty Name="dflt_consistence_code" ColumnName="dflt_consistence_code" />
+          <ScalarProperty Name="min_workability_value" ColumnName="min_workability_value" />
+          <ScalarProperty Name="max_workability_value" ColumnName="max_workability_value" />
+          <ScalarProperty Name="terminal_class" ColumnName="terminal_class" />
+          <ScalarProperty Name="cart_cat" ColumnName="cart_cat" />
+          <ScalarProperty Name="print_control" ColumnName="print_control" />
+          <ScalarProperty Name="mix_design_min_agg_size" ColumnName="mix_design_min_agg_size" />
+          <ScalarProperty Name="mix_design_max_agg_size" ColumnName="mix_design_max_agg_size" />
+          <ScalarProperty Name="wet_batch_time" ColumnName="wet_batch_time" />
+          <ScalarProperty Name="dry_batch_time" ColumnName="dry_batch_time" />
+          <ScalarProperty Name="water_chute_wash_flag" ColumnName="water_chute_wash_flag" />
+          <ScalarProperty Name="update_date" ColumnName="update_date" />
+          <ScalarProperty Name="u_version" ColumnName="u_version" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TQS_mtlp">
+      <EntityTypeMapping TypeName="Entities.TQS_mtlp">
+        <MappingFragment StoreEntitySet="TQS_mtlp">
+          <ScalarProperty Name="CompanyID" ColumnName="CompanyID" />
+          <ScalarProperty Name="matl_class_id" ColumnName="matl_class_id" />
+          <ScalarProperty Name="matl_class_type" ColumnName="matl_class_type" />
+          <ScalarProperty Name="plant_code" ColumnName="plant_code" />
+          <ScalarProperty Name="plant_status" ColumnName="plant_status" />
+          <ScalarProperty Name="cem_strgth_class" ColumnName="cem_strgth_class" />
+          <ScalarProperty Name="cem_strgth_subclass" ColumnName="cem_strgth_subclass" />
+          <ScalarProperty Name="cement_offset" ColumnName="cement_offset" />
+          <ScalarProperty Name="update_date" ColumnName="update_date" />
+          <ScalarProperty Name="u_version" ColumnName="u_version" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TQS_mxca">
+      <EntityTypeMapping TypeName="Entities.TQS_mxca">
+        <MappingFragment StoreEntitySet="TQS_mxca">
+          <ScalarProperty Name="CompanyID" ColumnName="CompanyID" />
+          <ScalarProperty Name="matl_class_id" ColumnName="matl_class_id" />
+          <ScalarProperty Name="matl_class_type" ColumnName="matl_class_type" />
+          <ScalarProperty Name="plant_code" ColumnName="plant_code" />
+          <ScalarProperty Name="const_item_code" ColumnName="const_item_code" />
+          <ScalarProperty Name="const_item_cat" ColumnName="const_item_cat" />
+          <ScalarProperty Name="const_matl_reqd_flag" ColumnName="const_matl_reqd_flag" />
+          <ScalarProperty Name="const_matl_dflt_flag" ColumnName="const_matl_dflt_flag" />
+          <ScalarProperty Name="update_date" ColumnName="update_date" />
+          <ScalarProperty Name="u_version" ColumnName="u_version" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TQS_mxcc">
+      <EntityTypeMapping TypeName="Entities.TQS_mxcc">
+        <MappingFragment StoreEntitySet="TQS_mxcc">
+          <ScalarProperty Name="CompanyID" ColumnName="CompanyID" />
+          <ScalarProperty Name="matl_class_id" ColumnName="matl_class_id" />
+          <ScalarProperty Name="matl_class_type" ColumnName="matl_class_type" />
+          <ScalarProperty Name="plant_code" ColumnName="plant_code" />
+          <ScalarProperty Name="const_matl_class_id" ColumnName="const_matl_class_id" />
+          <ScalarProperty Name="const_matl_class_type" ColumnName="const_matl_class_type" />
+          <ScalarProperty Name="const_matl_dflt_flag" ColumnName="const_matl_dflt_flag" />
+          <ScalarProperty Name="update_date" ColumnName="update_date" />
+          <ScalarProperty Name="u_version" ColumnName="u_version" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TQS_prjp">
+      <EntityTypeMapping TypeName="Entities.TQS_prjp">
+        <MappingFragment StoreEntitySet="TQS_prjp">
+          <ScalarProperty Name="CompanyID" ColumnName="CompanyID" />
+          <ScalarProperty Name="cust_code" ColumnName="cust_code" />
+          <ScalarProperty Name="proj_code" ColumnName="proj_code" />
+          <ScalarProperty Name="intrnl_line_num" ColumnName="intrnl_line_num" />
+          <ScalarProperty Name="sort_line_num" ColumnName="sort_line_num" />
+          <ScalarProperty Name="prod_code" ColumnName="prod_code" />
+          <ScalarProperty Name="batch_code" ColumnName="batch_code" />
+          <ScalarProperty Name="prod_descr" ColumnName="prod_descr" />
+          <ScalarProperty Name="est_qty" ColumnName="est_qty" />
+          <ScalarProperty Name="rm_slump" ColumnName="rm_slump" />
+          <ScalarProperty Name="rm_slump_uom" ColumnName="rm_slump_uom" />
+          <ScalarProperty Name="usage_code" ColumnName="usage_code" />
+          <ScalarProperty Name="short_prod_descr" ColumnName="short_prod_descr" />
+          <ScalarProperty Name="price_uom" ColumnName="price_uom" />
+          <ScalarProperty Name="price" ColumnName="price" />
+          <ScalarProperty Name="price_ext_code" ColumnName="price_ext_code" />
+          <ScalarProperty Name="price_plant_code" ColumnName="price_plant_code" />
+          <ScalarProperty Name="effect_date" ColumnName="effect_date" />
+          <ScalarProperty Name="prev_price" ColumnName="prev_price" />
+          <ScalarProperty Name="prev_price_ext_code" ColumnName="prev_price_ext_code" />
+          <ScalarProperty Name="delv_price_flag" ColumnName="delv_price_flag" />
+          <ScalarProperty Name="dflt_load_qty" ColumnName="dflt_load_qty" />
+          <ScalarProperty Name="order_qty_uom" ColumnName="order_qty_uom" />
+          <ScalarProperty Name="order_qty_ext_code" ColumnName="order_qty_ext_code" />
+          <ScalarProperty Name="order_dosage_qty" ColumnName="order_dosage_qty" />
+          <ScalarProperty Name="order_dosage_qty_uom" ColumnName="order_dosage_qty_uom" />
+          <ScalarProperty Name="delv_qty_uom" ColumnName="delv_qty_uom" />
+          <ScalarProperty Name="price_qty_ext_code" ColumnName="price_qty_ext_code" />
+          <ScalarProperty Name="tkt_qty_ext_code" ColumnName="tkt_qty_ext_code" />
+          <ScalarProperty Name="mix_type" ColumnName="mix_type" />
+          <ScalarProperty Name="item_type" ColumnName="item_type" />
+          <ScalarProperty Name="quote_code" ColumnName="quote_code" />
+          <ScalarProperty Name="allow_price_adjust_flag" ColumnName="allow_price_adjust_flag" />
+          <ScalarProperty Name="sep_invc_flag" ColumnName="sep_invc_flag" />
+          <ScalarProperty Name="override_terms_disc_flag" ColumnName="override_terms_disc_flag" />
+          <ScalarProperty Name="disc_rate_type" ColumnName="disc_rate_type" />
+          <ScalarProperty Name="disc_amt" ColumnName="disc_amt" />
+          <ScalarProperty Name="disc_amt_uom" ColumnName="disc_amt_uom" />
+          <ScalarProperty Name="content_up_price" ColumnName="content_up_price" />
+          <ScalarProperty Name="content_down_price" ColumnName="content_down_price" />
+          <ScalarProperty Name="content_up_price_effect_date" ColumnName="content_up_price_effect_date" />
+          <ScalarProperty Name="content_down_price_effect_date" ColumnName="content_down_price_effect_date" />
+          <ScalarProperty Name="prev_content_up_price" ColumnName="prev_content_up_price" />
+          <ScalarProperty Name="prev_content_down_price" ColumnName="prev_content_down_price" />
+          <ScalarProperty Name="job_quote_unique_line_num" ColumnName="job_quote_unique_line_num" />
+          <ScalarProperty Name="pour_meth_code" ColumnName="pour_meth_code" />
+          <ScalarProperty Name="ca_truck_type" ColumnName="ca_truck_type" />
+          <ScalarProperty Name="cb_truck_type" ColumnName="cb_truck_type" />
+          <ScalarProperty Name="cc_truck_type" ColumnName="cc_truck_type" />
+          <ScalarProperty Name="cd_truck_type" ColumnName="cd_truck_type" />
+          <ScalarProperty Name="quote_rev_num" ColumnName="quote_rev_num" />
+          <ScalarProperty Name="modified_date" ColumnName="modified_date" />
+          <ScalarProperty Name="type_price" ColumnName="type_price" />
+          <ScalarProperty Name="matl_price" ColumnName="matl_price" />
+          <ScalarProperty Name="auto_prod_flag" ColumnName="auto_prod_flag" />
+          <ScalarProperty Name="item_cat_price_flag" ColumnName="item_cat_price_flag" />
+          <ScalarProperty Name="auth_user_name" ColumnName="auth_user_name" />
+          <ScalarProperty Name="price_status" ColumnName="price_status" />
+          <ScalarProperty Name="unique_line_num" ColumnName="unique_line_num" />
+          <ScalarProperty Name="delv_meth_code" ColumnName="delv_meth_code" />
+          <ScalarProperty Name="sched_date" ColumnName="sched_date" />
+          <ScalarProperty Name="sched_time" ColumnName="sched_time" />
+          <ScalarProperty Name="ship_plant_code" ColumnName="ship_plant_code" />
+          <ScalarProperty Name="agg_levy_code" ColumnName="agg_levy_code" />
+          <ScalarProperty Name="agg_levy_rate" ColumnName="agg_levy_rate" />
+          <ScalarProperty Name="certificate" ColumnName="certificate" />
+          <ScalarProperty Name="alternative_item" ColumnName="alternative_item" />
+          <ScalarProperty Name="must_finish_flag" ColumnName="must_finish_flag" />
+          <ScalarProperty Name="econ_source_priority" ColumnName="econ_source_priority" />
+          <ScalarProperty Name="econ_source_margin" ColumnName="econ_source_margin" />
+          <ScalarProperty Name="econ_source_variance" ColumnName="econ_source_variance" />
+          <ScalarProperty Name="alternative_item_descr" ColumnName="alternative_item_descr" />
+          <ScalarProperty Name="alternative_item_short_descr" ColumnName="alternative_item_short_descr" />
+          <ScalarProperty Name="record_origin_code" ColumnName="record_origin_code" />
+          <ScalarProperty Name="mix_matl_class_id" ColumnName="mix_matl_class_id" />
+          <ScalarProperty Name="admix_class_id" ColumnName="admix_class_id" />
+          <ScalarProperty Name="coarse_agg_class_id" ColumnName="coarse_agg_class_id" />
+          <ScalarProperty Name="cem_class_id" ColumnName="cem_class_id" />
+          <ScalarProperty Name="fine_agg_class_id" ColumnName="fine_agg_class_id" />
+          <ScalarProperty Name="water_class_id" ColumnName="water_class_id" />
+          <ScalarProperty Name="batch_book_type" ColumnName="batch_book_type" />
+          <ScalarProperty Name="consistence_code" ColumnName="consistence_code" />
+          <ScalarProperty Name="workability_value" ColumnName="workability_value" />
+          <ScalarProperty Name="strgth_code" ColumnName="strgth_code" />
+          <ScalarProperty Name="strgth_value" ColumnName="strgth_value" />
+          <ScalarProperty Name="max_water_cem_ratio" ColumnName="max_water_cem_ratio" />
+          <ScalarProperty Name="min_cem_cont" ColumnName="min_cem_cont" />
+          <ScalarProperty Name="cem_replacement_pct" ColumnName="cem_replacement_pct" />
+          <ScalarProperty Name="max_agg_size" ColumnName="max_agg_size" />
+          <ScalarProperty Name="enviro_class_code" ColumnName="enviro_class_code" />
+          <ScalarProperty Name="chloride_class" ColumnName="chloride_class" />
+          <ScalarProperty Name="calc_cem_cont" ColumnName="calc_cem_cont" />
+          <ScalarProperty Name="cem_calc_method" ColumnName="cem_calc_method" />
+          <ScalarProperty Name="mortar_lifetime" ColumnName="mortar_lifetime" />
+          <ScalarProperty Name="mix_cert_status" ColumnName="mix_cert_status" />
+          <ScalarProperty Name="cert_cem_cont" ColumnName="cert_cem_cont" />
+          <ScalarProperty Name="original_cost" ColumnName="original_cost" />
+          <ScalarProperty Name="chrg_cart_code" ColumnName="chrg_cart_code" />
+          <ScalarProperty Name="chrg_cart_rate" ColumnName="chrg_cart_rate" />
+          <ScalarProperty Name="pay_cart_code" ColumnName="pay_cart_code" />
+          <ScalarProperty Name="tqs_price" ColumnName="tqs_price" />
+          <ScalarProperty Name="user_min_cem_cont" ColumnName="user_min_cem_cont" />
+          <ScalarProperty Name="user_max_water_cem_ratio" ColumnName="user_max_water_cem_ratio" />
+          <ScalarProperty Name="es_rsn_code" ColumnName="es_rsn_code" />
+          <ScalarProperty Name="es_selected_tot_std_cost" ColumnName="es_selected_tot_std_cost" />
+          <ScalarProperty Name="es_most_econ_tot_std_cost" ColumnName="es_most_econ_tot_std_cost" />
+          <ScalarProperty Name="es_most_economical_plant" ColumnName="es_most_economical_plant" />
+          <ScalarProperty Name="es_most_economical_alternative" ColumnName="es_most_economical_alternative" />
+          <ScalarProperty Name="es_user_name" ColumnName="es_user_name" />
+          <ScalarProperty Name="po_restrict_code" ColumnName="po_restrict_code" />
+          <ScalarProperty Name="po_restrict_warn_code" ColumnName="po_restrict_warn_code" />
+          <ScalarProperty Name="price_expir_date" ColumnName="price_expir_date" />
+          <ScalarProperty Name="product_status" ColumnName="product_status" />
+          <ScalarProperty Name="price_loc_code" ColumnName="price_loc_code" />
+          <ScalarProperty Name="chloride_class_code" ColumnName="chloride_class_code" />
+          <ScalarProperty Name="chrg_cart_rate_status" ColumnName="chrg_cart_rate_status" />
+          <ScalarProperty Name="pay_cart_rate" ColumnName="pay_cart_rate" />
+          <ScalarProperty Name="pay_cart_rate_status" ColumnName="pay_cart_rate_status" />
+          <ScalarProperty Name="item_stat_effect_date" ColumnName="item_stat_effect_date" />
+          <ScalarProperty Name="prev_matl_price" ColumnName="prev_matl_price" />
+          <ScalarProperty Name="tech_manager_approved" ColumnName="tech_manager_approved" />
+          <ScalarProperty Name="modf_1" ColumnName="modf_1" />
+          <ScalarProperty Name="modf_2" ColumnName="modf_2" />
+          <ScalarProperty Name="modf_3" ColumnName="modf_3" />
+          <ScalarProperty Name="modf_4" ColumnName="modf_4" />
+          <ScalarProperty Name="restrict_01" ColumnName="restrict_01" />
+          <ScalarProperty Name="restrict_02" ColumnName="restrict_02" />
+          <ScalarProperty Name="restrict_03" ColumnName="restrict_03" />
+          <ScalarProperty Name="restrict_04" ColumnName="restrict_04" />
+          <ScalarProperty Name="restrict_05" ColumnName="restrict_05" />
+          <ScalarProperty Name="exps_cls" ColumnName="exps_cls" />
+          <ScalarProperty Name="std_cost_effect_date" ColumnName="std_cost_effect_date" />
+          <ScalarProperty Name="curr_std_cost" ColumnName="curr_std_cost" />
+          <ScalarProperty Name="prev_std_cost" ColumnName="prev_std_cost" />
+          <ScalarProperty Name="p_value" ColumnName="p_value" />
+          <ScalarProperty Name="t_curing_time" ColumnName="t_curing_time" />
+          <ScalarProperty Name="t_curing_time_uom" ColumnName="t_curing_time_uom" />
+          <ScalarProperty Name="concrete_type_code" ColumnName="concrete_type_code" />
+          <ScalarProperty Name="design_method_1" ColumnName="design_method_1" />
+          <ScalarProperty Name="design_method_2" ColumnName="design_method_2" />
+          <ScalarProperty Name="min_cemnt_content" ColumnName="min_cemnt_content" />
+          <ScalarProperty Name="f_value" ColumnName="f_value" />
+          <ScalarProperty Name="max_air_pct" ColumnName="max_air_pct" />
+          <ScalarProperty Name="additional_fly_ash_pct" ColumnName="additional_fly_ash_pct" />
+          <ScalarProperty Name="water_content" ColumnName="water_content" />
+          <ScalarProperty Name="binder_content" ColumnName="binder_content" />
+          <ScalarProperty Name="descr_update_flag" ColumnName="descr_update_flag" />
+          <ScalarProperty Name="min_air_pct" ColumnName="min_air_pct" />
+          <ScalarProperty Name="update_date" ColumnName="update_date" />
+          <ScalarProperty Name="u_version" ColumnName="u_version" />
+          <ScalarProperty Name="ca_sur_codes" ColumnName="ca_sur_codes" />
+          <ScalarProperty Name="cb_sur_codes" ColumnName="cb_sur_codes" />
+          <ScalarProperty Name="cc_sur_codes" ColumnName="cc_sur_codes" />
+          <ScalarProperty Name="cd_sur_codes" ColumnName="cd_sur_codes" />
+          <ScalarProperty Name="ca_sur_rates" ColumnName="ca_sur_rates" />
+          <ScalarProperty Name="cb_sur_rates" ColumnName="cb_sur_rates" />
+          <ScalarProperty Name="cc_sur_rates" ColumnName="cc_sur_rates" />
+          <ScalarProperty Name="cd_sur_rates" ColumnName="cd_sur_rates" />
+          <ScalarProperty Name="ca_sundry_chrg_table_ids" ColumnName="ca_sundry_chrg_table_ids" />
+          <ScalarProperty Name="cb_sundry_chrg_table_ids" ColumnName="cb_sundry_chrg_table_ids" />
+          <ScalarProperty Name="cc_sundry_chrg_table_ids" ColumnName="cc_sundry_chrg_table_ids" />
+          <ScalarProperty Name="cd_sundry_chrg_table_ids" ColumnName="cd_sundry_chrg_table_ids" />
+          <ScalarProperty Name="ca_sundry_chrg_sep_invc_flags" ColumnName="ca_sundry_chrg_sep_invc_flags" />
+          <ScalarProperty Name="cb_sundry_chrg_sep_invc_flags" ColumnName="cb_sundry_chrg_sep_invc_flags" />
+          <ScalarProperty Name="cc_sundry_chrg_sep_invc_flags" ColumnName="cc_sundry_chrg_sep_invc_flags" />
+          <ScalarProperty Name="cd_sundry_chrg_sep_invc_flags" ColumnName="cd_sundry_chrg_sep_invc_flags" />
+          <ScalarProperty Name="ca_sur_dflt_action_codes" ColumnName="ca_sur_dflt_action_codes" />
+          <ScalarProperty Name="cb_sur_dflt_action_codes" ColumnName="cb_sur_dflt_action_codes" />
+          <ScalarProperty Name="cc_sur_dflt_action_codes" ColumnName="cc_sur_dflt_action_codes" />
+          <ScalarProperty Name="cd_sur_dflt_action_codes" ColumnName="cd_sur_dflt_action_codes" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TQS_work">
+      <EntityTypeMapping TypeName="Entities.TQS_work">
+        <MappingFragment StoreEntitySet="TQS_work">
+          <ScalarProperty Name="workability_code" ColumnName="workability_code" />
+          <ScalarProperty Name="descr" ColumnName="descr" />
+          <ScalarProperty Name="short_descr" ColumnName="short_descr" />
+          <ScalarProperty Name="workability_type" ColumnName="workability_type" />
+          <ScalarProperty Name="nominal_workability" ColumnName="nominal_workability" />
+          <ScalarProperty Name="workability_base_uom" ColumnName="workability_base_uom" />
+          <ScalarProperty Name="update_date" ColumnName="update_date" />
+          <ScalarProperty Name="u_version" ColumnName="u_version" />
+          <ScalarProperty Name="CompanyID" ColumnName="CompanyID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Unit_Of_Measure">
+      <EntityTypeMapping TypeName="Entities.Unit_Of_Measure">
+        <MappingFragment StoreEntitySet="Unit_Of_Measure">
+          <ScalarProperty Name="Unit_Of_Measure_ID" ColumnName="Unit_Of_Measure_ID" />
+          <ScalarProperty Name="CompanyID" ColumnName="CompanyID" />
+          <ScalarProperty Name="Imperial_Description" ColumnName="Imperial_Description" />
+          <ScalarProperty Name="Metric_Description" ColumnName="Metric_Description" />
+          <ScalarProperty Name="Imperial_To_Metric_Conv_Factor" ColumnName="Imperial_To_Metric_Conv_Factor" />
+          <ScalarProperty Name="Conversion_Factor_Type_ID" ColumnName="Conversion_Factor_Type_ID" />
+          <ScalarProperty Name="Conversion_Factor_Value" ColumnName="Conversion_Factor_Value" />
+          <ScalarProperty Name="ConnectionCode" ColumnName="ConnectionCode" />
+          <ScalarProperty Name="UOM" ColumnName="UOM" />
+          <ScalarProperty Name="MsModificationDate" ColumnName="MsModificationDate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="UserRoles">
+      <EntityTypeMapping TypeName="Entities.UserRole">
+        <MappingFragment StoreEntitySet="UserRoles">
+          <ScalarProperty Name="UserRoleID" ColumnName="UserRoleID" />
+          <ScalarProperty Name="RoleID" ColumnName="RoleID" />
+          <ScalarProperty Name="UserID" ColumnName="UserID" />
+          <ScalarProperty Name="MsModificationDate" ColumnName="MsModificationDate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Users">
+      <EntityTypeMapping TypeName="Entities.User">
+        <MappingFragment StoreEntitySet="Users">
+          <ScalarProperty Name="UserID" ColumnName="UserID" />
+          <ScalarProperty Name="CompanyID" ColumnName="CompanyID" />
+          <ScalarProperty Name="UserName" ColumnName="UserName" />
+          <ScalarProperty Name="FirstName" ColumnName="FirstName" />
+          <ScalarProperty Name="LastName" ColumnName="LastName" />
+          <ScalarProperty Name="Active" ColumnName="Active" />
+          <ScalarProperty Name="InsertDate" ColumnName="InsertDate" />
+          <ScalarProperty Name="EmailAddress" ColumnName="EmailAddress" />
+          <ScalarProperty Name="Handle" ColumnName="Handle" />
+          <ScalarProperty Name="Password" ColumnName="Password" />
+          <ScalarProperty Name="CellPhoneNumber" ColumnName="CellPhoneNumber" />
+          <ScalarProperty Name="PhoneNumber" ColumnName="PhoneNumber" />
+          <ScalarProperty Name="FaxNumber" ColumnName="FaxNumber" />
+          <ScalarProperty Name="SalesmanCode" ColumnName="SalesmanCode" />
+          <ScalarProperty Name="ReportsToID" ColumnName="ReportsToID" />
+          <ScalarProperty Name="DeviationTypeID" ColumnName="DeviationTypeID" />
+          <ScalarProperty Name="DeviationAmount" ColumnName="DeviationAmount" />
+          <ScalarProperty Name="Address1" ColumnName="Address1" />
+          <ScalarProperty Name="Address2" ColumnName="Address2" />
+          <ScalarProperty Name="Address3" ColumnName="Address3" />
+          <ScalarProperty Name="City" ColumnName="City" />
+          <ScalarProperty Name="ST" ColumnName="ST" />
+          <ScalarProperty Name="Zip" ColumnName="Zip" />
+          <ScalarProperty Name="Latitude" ColumnName="Latitude" />
+          <ScalarProperty Name="Longitude" ColumnName="Longitude" />
+          <ScalarProperty Name="UsesSAML" ColumnName="UsesSAML" />
+          <ScalarProperty Name="Country" ColumnName="Country" />
+          <ScalarProperty Name="DefaultMailMessage" ColumnName="DefaultMailMessage" />
+          <ScalarProperty Name="MsModificationDate" ColumnName="MsModificationDate" />
+          <ScalarProperty Name="AdministratorID" ColumnName="AdministratorID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="usersDivisions">
+      <EntityTypeMapping TypeName="Entities.usersDivision">
+        <MappingFragment StoreEntitySet="usersDivisions">
+          <ScalarProperty Name="UserDivisionID" ColumnName="UserDivisionID" />
+          <ScalarProperty Name="UserID" ColumnName="UserID" />
+          <ScalarProperty Name="LocationDivisionID" ColumnName="LocationDivisionID" />
+          <ScalarProperty Name="MsModificationDate" ColumnName="MsModificationDate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ValueAdds">
+      <EntityTypeMapping TypeName="Entities.ValueAdd">
+        <MappingFragment StoreEntitySet="ValueAdd">
+          <ScalarProperty Name="ValueAddID" ColumnName="ValueAddID" />
+          <ScalarProperty Name="ProductLineID" ColumnName="ProductLineID" />
+          <ScalarProperty Name="ProductTypeID" ColumnName="ProductTypeID" />
+          <ScalarProperty Name="ProductID" ColumnName="ProductID" />
+          <ScalarProperty Name="StartDate" ColumnName="StartDate" />
+          <ScalarProperty Name="EndDate" ColumnName="EndDate" />
+          <ScalarProperty Name="MsModificationDate" ColumnName="MsModificationDate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="VehicleTypes">
+      <EntityTypeMapping TypeName="Entities.VehicleType">
+        <MappingFragment StoreEntitySet="VehicleTypes">
+          <ScalarProperty Name="VehicleTypeID" ColumnName="VehicleTypeID" />
+          <ScalarProperty Name="CompanyID" ColumnName="CompanyID" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="Abbreviation" ColumnName="Abbreviation" />
+          <ScalarProperty Name="LocalVehicleTypeId" ColumnName="LocalVehicleTypeId" />
+          <ScalarProperty Name="Inserted" ColumnName="Inserted" />
+          <ScalarProperty Name="Modified" ColumnName="Modified" />
+          <ScalarProperty Name="MsModificationDate" ColumnName="MsModificationDate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ZoneCodes">
+      <EntityTypeMapping TypeName="Entities.ZoneCode">
+        <MappingFragment StoreEntitySet="ZoneCodes">
+          <ScalarProperty Name="ZoneCodeID" ColumnName="ZoneCodeID" />
+          <ScalarProperty Name="CompanyID" ColumnName="CompanyID" />
+          <ScalarProperty Name="ZoneCodeName" ColumnName="ZoneCodeName" />
+          <ScalarProperty Name="SystemCode" ColumnName="SystemCode" />
+          <ScalarProperty Name="MsModificationDate" ColumnName="MsModificationDate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="consumersprojectimports">
+      <EntityTypeMapping TypeName="Entities.consumersprojectimport">
+        <MappingFragment StoreEntitySet="consumersprojectimport">
+          <ScalarProperty Name="Plant" ColumnName="Plant" />
+          <ScalarProperty Name="Project_Name" ColumnName="Project Name" />
+          <ScalarProperty Name="Address___City" ColumnName="Address   City" />
+          <ScalarProperty Name="Status" ColumnName="Status" />
+          <ScalarProperty Name="Account_Name" ColumnName="Account Name" />
+          <ScalarProperty Name="Date_Job_Created" ColumnName="Date Job Created" />
+          <ScalarProperty Name="Volume" ColumnName="Volume" />
+          <ScalarProperty Name="Type" ColumnName="Type" />
+          <ScalarProperty Name="Segment" ColumnName="Segment" />
+          <ScalarProperty Name="Bid_Date" ColumnName="Bid Date" />
+          <ScalarProperty Name="Sales_Person" ColumnName="Sales Person" />
+          <ScalarProperty Name="Source" ColumnName="Source" />
+          <ScalarProperty Name="Private" ColumnName="Private" />
+          <ScalarProperty Name="CompanyId" ColumnName="CompanyId" />
+          <ScalarProperty Name="C_Balance_Volume_to_Forecast_" ColumnName=" Balance Volume to Forecast " />
+          <ScalarProperty Name="C14_Jan" ColumnName="14-Jan" />
+          <ScalarProperty Name="C14_Feb" ColumnName="14-Feb" />
+          <ScalarProperty Name="C14_Mar" ColumnName="14-Mar" />
+          <ScalarProperty Name="C14_Apr" ColumnName="14-Apr" />
+          <ScalarProperty Name="C14_May" ColumnName="14-May" />
+          <ScalarProperty Name="C14_Jun" ColumnName="14-Jun" />
+          <ScalarProperty Name="C14_Jul" ColumnName="14-Jul" />
+          <ScalarProperty Name="C14_Aug" ColumnName="14-Aug" />
+          <ScalarProperty Name="C14_Sep" ColumnName="14-Sep" />
+          <ScalarProperty Name="C14_Oct" ColumnName="14-Oct" />
+          <ScalarProperty Name="C14_Nov" ColumnName="14-Nov" />
+          <ScalarProperty Name="C14_Dec" ColumnName="14-Dec" />
+          <ScalarProperty Name="MsModificationDate" ColumnName="MsModificationDate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

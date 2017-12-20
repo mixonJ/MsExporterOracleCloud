@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="764417b95a10445fb80de75e00b87000" Name="Diagram1">
+        <EntityTypeShape EntityType="Entities.AccountsReceivable" Width="1.5" PointX="5.25" PointY="88.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="Entities.AdditionalProduct" Width="1.5" PointX="7.5" PointY="162.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="Entities.AgeRanx" Width="1.5" PointX="5.25" PointY="96.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Entities.BatchEvent" Width="1.5" PointX="5.25" PointY="99.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="Entities.BidderQuoteDetail" Width="1.5" PointX="25.25" PointY="185.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="Entities.BidderQuote" Width="1.5" PointX="23" PointY="184.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="Entities.BudgetedYard" Width="1.5" PointX="15" PointY="228.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Entities.cnfc" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Entities.Company" Width="1.5" PointX="3" PointY="175" IsExpanded="true" />
+        <EntityTypeShape EntityType="Entities.CompanyBidStatus" Width="1.5" PointX="8.25" PointY="182.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="Entities.CompanyOrderStatus" Width="1.5" PointX="5.25" PointY="105.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="Entities.CompanyProjectProductStatus" Width="1.5" PointX="5.25" PointY="108.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Entities.CompanyProjectStatus" Width="1.5" PointX="5.25" PointY="111.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="Entities.CompanyQuoteStatus" Width="1.5" PointX="5.25" PointY="114" IsExpanded="true" />
+        <EntityTypeShape EntityType="Entities.CompanyUser" Width="1.5" PointX="7.5" PointY="219.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="Entities.CompetitorPlant" Width="1.5" PointX="12.75" PointY="174.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="Entities.Competitor" Width="1.5" PointX="10.5" PointY="219.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Entities.Contact" Width="1.5" PointX="12.75" PointY="225.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="Entities.ContactNote" Width="1.5" PointX="15" PointY="244.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="Entities.CreditStatus" Width="1.5" PointX="5.25" PointY="125.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="Entities.CustomerEvent" Width="1.5" PointX="21.75" PointY="191.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Entities.CustomerEventType" Width="1.5" PointX="5.25" PointY="129" IsExpanded="true" />
+        <EntityTypeShape EntityType="Entities.CustomerType" Width="1.5" PointX="5.25" PointY="131.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="Entities.DeletedItem" Width="1.5" PointX="2.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Entities.DeviationType" Width="1.5" PointX="2.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Entities.Division" Width="1.5" PointX="5.25" PointY="134.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="Entities.Employee" Width="1.5" PointX="5.25" PointY="142.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Entities.ErrorLog" Width="1.5" PointX="5.25" PointY="139.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="Entities.EventFrequency" Width="1.5" PointX="5.25" PointY="150.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Entities.EventStatu" Width="1.5" PointX="19.5" PointY="176.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Entities.FieldConfig" Width="1.5" PointX="5.25" PointY="153.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Entities.LinesOfBusiness" Width="1.5" PointX="5.25" PointY="157" IsExpanded="true" />
+        <EntityTypeShape EntityType="Entities.Locations_Divisions_Lookup" Width="1.5" PointX="8.25" PointY="254.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="Entities.Login" Width="1.5" PointX="7.5" PointY="258.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Entities.LostReason" Width="1.5" PointX="5.25" PointY="161" IsExpanded="true" />
+        <EntityTypeShape EntityType="Entities.ManagersSalesman" Width="1.5" PointX="7.5" PointY="260.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="Entities.OracleExport" Width="1.5" PointX="5.25" PointY="164.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Entities.OrderDetail" Width="1.5" PointX="24" PointY="199.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="Entities.Order" Width="1.5" PointX="17.75" PointY="183.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="Entities.PaymentTerm" Width="1.5" PointX="5.25" PointY="167.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="Entities.Plant" Width="1.5" PointX="7.5" PointY="152.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Entities.PlantLinesOfBusiness" Width="1.5" PointX="9.75" PointY="155.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="Entities.PlantProductPrice" Width="1.5" PointX="10.75" PointY="185.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="Entities.PlantProduct" Width="1.5" PointX="12.75" PointY="181.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Entities.PourSchedule" Width="1.5" PointX="21" PointY="202.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Entities.Product" Width="1.5" PointX="7.5" PointY="211.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="Entities.ProductLineLineOfBusiness" Width="1.5" PointX="7.5" PointY="168.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="Entities.ProductLine" Width="1.5" PointX="5.25" PointY="177.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="Entities.ProductTemplate" Width="1.5" PointX="9.75" PointY="225.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Entities.ProductType" Width="1.5" PointX="10.5" PointY="209.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="Entities.ProductUsage" Width="1.5" PointX="10.5" PointY="181.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="Entities.ProjectBidderCharge" Width="1.5" PointX="23" PointY="180.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="Entities.ProjectBidderNote" Width="1.5" PointX="23" PointY="223" IsExpanded="true" />
+        <EntityTypeShape EntityType="Entities.ProjectBidderProduct" Width="1.5" PointX="15.5" PointY="178.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="Entities.ProjectBidder" Width="1.5" PointX="20.75" PointY="182.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="Entities.ProjectBidderStatus" Width="1.5" PointX="18.5" PointY="190.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="Entities.ProjectCharge" Width="1.5" PointX="8.25" PointY="177.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Entities.ProjectChargeType" Width="1.5" PointX="6" PointY="174" IsExpanded="true" />
+        <EntityTypeShape EntityType="Entities.ProjectDistance" Width="1.5" PointX="17.75" PointY="180" IsExpanded="true" />
+        <EntityTypeShape EntityType="Entities.ProjectHistorySummary" Width="1.5" PointX="9.75" PointY="204.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="Entities.ProjectMapQtyRange" Width="3.25" PointX="5.25" PointY="187" IsExpanded="true" />
+        <EntityTypeShape EntityType="Entities.ProjectNote" Width="1.5" PointX="17.75" PointY="236" IsExpanded="true" />
+        <EntityTypeShape EntityType="Entities.ProjectProduct" Width="1.5" PointX="15.75" PointY="193.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="Entities.Project" Width="1.5" PointX="15.5" PointY="208.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="Entities.ProjectType" Width="1.5" PointX="5.25" PointY="190.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Entities.ProspectNote" Width="1.5" PointX="9.75" PointY="228.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Entities.ProspectQuantity" Width="1.5" PointX="9.75" PointY="200.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="Entities.ProspectRegion" Width="1.5" PointX="9.75" PointY="215.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="Entities.Prospect" Width="1.5" PointX="7.5" PointY="192.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="Entities.PSI" Width="1.5" PointX="4.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Entities.QuoteDetail" Width="1.5" PointX="21" PointY="198.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="Entities.QuoteGuid" Width="1.5" PointX="4.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Entities.Quote" Width="1.5" PointX="26" PointY="215.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Entities.QuoteSection" Width="1.5" PointX="6.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Entities.QuoteStandardClaus" Width="1.5" PointX="28.25" PointY="205.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Entities.QuoteStatus" Width="1.5" PointX="23.75" PointY="219.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="Entities.QuoteSurcharge" Width="1.5" PointX="28.25" PointY="211.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Entities.QuoteType" Width="1.5" PointX="5.25" PointY="194.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="Entities.Role" Width="1.5" PointX="8.25" PointY="264.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Entities.SalespersonContact" Width="1.5" PointX="18" PointY="244.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Entities.SalesPersonRegion" Width="1.5" PointX="12.75" PointY="208" IsExpanded="true" />
+        <EntityTypeShape EntityType="Entities.ScheduleDetail" Width="1.5" PointX="23.25" PointY="202.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Entities.ScheduleItem" Width="1.5" PointX="20.25" PointY="206.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Entities.Schedule" Width="1.5" PointX="18" PointY="206.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Entities.Source" Width="1.5" PointX="5.25" PointY="198.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="Entities.SourceSystem" Width="1.5" PointX="0.75" PointY="183" IsExpanded="true" />
+        <EntityTypeShape EntityType="Entities.StandardClaus" Width="1.5" PointX="13.75" PointY="184.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="Entities.Status" Width="1.5" PointX="6" PointY="182.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="Entities.Surcharge" Width="1.5" PointX="12.75" PointY="198.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Entities.TemplatedProduct" Width="1.5" PointX="18.75" PointY="193.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="Entities.TemplatedProductType" Width="1.5" PointX="12.75" PointY="203" IsExpanded="true" />
+        <EntityTypeShape EntityType="Entities.Terms_Discount" Width="1.5" PointX="5.25" PointY="202" IsExpanded="true" />
+        <EntityTypeShape EntityType="Entities.TimeCalendar" Width="1.5" PointX="0.75" PointY="6.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Entities.TQS_bbty" Width="1.5" PointX="5.25" PointY="205.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="Entities.TQS_chlc" Width="1.5" PointX="2.75" PointY="6.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Entities.TQS_cnfc" Width="1.5" PointX="4.75" PointY="6.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Entities.TQS_encd" Width="1.5" PointX="5.25" PointY="209.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="Entities.TQS_envr" Width="1.5" PointX="5.25" PointY="213.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="Entities.TQS_mtac" Width="1.5" PointX="5.25" PointY="216.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="Entities.TQS_mtbt" Width="1.5" PointX="5.25" PointY="220" IsExpanded="true" />
+        <EntityTypeShape EntityType="Entities.TQS_mtlc" Width="1.5" PointX="5.25" PointY="231.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Entities.TQS_mtlp" Width="1.5" PointX="5.25" PointY="224" IsExpanded="true" />
+        <EntityTypeShape EntityType="Entities.TQS_mxca" Width="1.5" PointX="5.25" PointY="227.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="Entities.TQS_mxcc" Width="1.5" PointX="5.25" PointY="242.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="Entities.TQS_prjp" Width="1.5" PointX="5.25" PointY="273.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="Entities.TQS_work" Width="1.5" PointX="5.25" PointY="246.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="Entities.Unit_Of_Measure" Width="1.5" PointX="5.25" PointY="249.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="Entities.UserRole" Width="1.5" PointX="10.5" PointY="259.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="Entities.User" Width="1.5" PointX="5.25" PointY="255" IsExpanded="true" />
+        <EntityTypeShape EntityType="Entities.usersDivision" Width="1.5" PointX="10.5" PointY="256.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="Entities.ValueAdd" Width="1.5" PointX="12.75" PointY="194" IsExpanded="true" />
+        <EntityTypeShape EntityType="Entities.VehicleType" Width="1.5" PointX="5.25" PointY="266.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="Entities.ZoneCode" Width="1.5" PointX="5.25" PointY="270.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="Entities.consumersprojectimport" Width="1.5" PointX="6.75" PointY="6.75" IsExpanded="true" />
+        <AssociationConnector Association="Entities.FK_AccountsReceivable_Companies" ManuallyRouted="false" />
+        <AssociationConnector Association="Entities.FK_AdditionalProducts_Companies" ManuallyRouted="false" />
+        <AssociationConnector Association="Entities.FK_AdditionalProducts_Divisions" ManuallyRouted="false" />
+        <AssociationConnector Association="Entities.FK_AdditionalProducts_Product" ManuallyRouted="false" />
+        <AssociationConnector Association="Entities.FK_AgeRanges_Companies" ManuallyRouted="false" />
+        <AssociationConnector Association="Entities.FK_BatchEvents_Companies" ManuallyRouted="false" />
+        <AssociationConnector Association="Entities.FK_BidderQuoteDetails_BidderQuotes" ManuallyRouted="false" />
+        <AssociationConnector Association="Entities.FK_BidderQuotes_ProjectBidders" ManuallyRouted="false" />
+        <AssociationConnector Association="Entities.FK_BudgetedYards_Users" ManuallyRouted="false" />
+        <AssociationConnector Association="Entities.FK_BudgetedYards_ValueAdd" ManuallyRouted="false" />
+        <AssociationConnector Association="Entities.FK_Companies_QuoteTypes" ManuallyRouted="false" />
+        <AssociationConnector Association="Entities.FK_Companies_SourceSystem" ManuallyRouted="false" />
+        <AssociationConnector Association="Entities.FK_Companies_Unit_Of_Measure" ManuallyRouted="false" />
+        <AssociationConnector Association="Entities.FK_CompanyBidStatuses_Companies" ManuallyRouted="false" />
+        <AssociationConnector Association="Entities.FK_CompanyOrderStatuses_Companies" ManuallyRouted="false" />
+        <AssociationConnector Association="Entities.FK_CompanyProjectProductStatuses_Companies" ManuallyRouted="false" />
+        <AssociationConnector Association="Entities.FK_CompanyProjectStatuses_Companies" ManuallyRouted="false" />
+        <AssociationConnector Association="Entities.FK_CompanyQuoteStatuses_Companies" ManuallyRouted="false" />
+        <AssociationConnector Association="Entities.FK_CompanyUsers_Companies" ManuallyRouted="false" />
+        <AssociationConnector Association="Entities.FK_Competitors_Companies" ManuallyRouted="false" />
+        <AssociationConnector Association="Entities.FK_CreditStatuses_Companies" ManuallyRouted="false" />
+        <AssociationConnector Association="Entities.FK_CustomerEventTypes_Companies" ManuallyRouted="false" />
+        <AssociationConnector Association="Entities.FK_CustomerTypes_Companies" ManuallyRouted="false" />
+        <AssociationConnector Association="Entities.FK_Divisions_Companies" ManuallyRouted="false" />
+        <AssociationConnector Association="Entities.FK_Employee_Companies" ManuallyRouted="false" />
+        <AssociationConnector Association="Entities.FK_ErrorLog_Companies" ManuallyRouted="false" />
+        <AssociationConnector Association="Entities.FK_EventFrequency_Companies" ManuallyRouted="false" />
+        <AssociationConnector Association="Entities.FK_FieldConfigs_Companies" ManuallyRouted="false" />
+        <AssociationConnector Association="Entities.FK_LinesOfBusiness_Companies" ManuallyRouted="false" />
+        <AssociationConnector Association="Entities.FK_LostReasons_Companies" ManuallyRouted="false" />
+        <AssociationConnector Association="Entities.FK_OracleExports_Companies" ManuallyRouted="false" />
+        <AssociationConnector Association="Entities.FK_Orders_Companies" ManuallyRouted="false" />
+        <AssociationConnector Association="Entities.FK_PaymentTerms_Companies" ManuallyRouted="false" />
+        <AssociationConnector Association="Entities.FK_Product_Companies" ManuallyRouted="false" />
+        <AssociationConnector Association="Entities.FK_ProductLines_Companies" ManuallyRouted="false" />
+        <AssociationConnector Association="Entities.FK_ProductUsage_Companies" ManuallyRouted="false" />
+        <AssociationConnector Association="Entities.FK_ProjectCharges_Companies" ManuallyRouted="false" />
+        <AssociationConnector Association="Entities.FK_ProjectMapQtyRanges_Companies" ManuallyRouted="false" />
+        <AssociationConnector Association="Entities.FK_Projects_Companies" ManuallyRouted="false" />
+        <AssociationConnector Association="Entities.FK_ProjectTypes_Companies" ManuallyRouted="false" />
+        <AssociationConnector Association="Entities.FK_Prospects_Companies" ManuallyRouted="false" />
+        <AssociationConnector Association="Entities.FK_PSI_Companies" ManuallyRouted="false" />
+        <AssociationConnector Association="Entities.FK_QuoteTypes_Companies" ManuallyRouted="false" />
+        <AssociationConnector Association="Entities.FK_Sources_Companies" ManuallyRouted="false" />
+        <AssociationConnector Association="Entities.FK_StandardClauses_Companies" ManuallyRouted="false" />
+        <AssociationConnector Association="Entities.FK_Surcharges_Companies" ManuallyRouted="false" />
+        <AssociationConnector Association="Entities.FK_Terms_Discount_Companies" ManuallyRouted="false" />
+        <AssociationConnector Association="Entities.FK_TQS_bbty_Company" ManuallyRouted="false" />
+        <AssociationConnector Association="Entities.FK_TQS_encd_Company" ManuallyRouted="false" />
+        <AssociationConnector Association="Entities.FK_TQS_envr_Company" ManuallyRouted="false" />
+        <AssociationConnector Association="Entities.FK_TQS_mtac_Company" ManuallyRouted="false" />
+        <AssociationConnector Association="Entities.FK_TQS_mtbt_Company" ManuallyRouted="false" />
+        <AssociationConnector Association="Entities.FK_TQS_mtlc_Company" ManuallyRouted="false" />
+        <AssociationConnector Association="Entities.FK_TQS_mtlp_Company" ManuallyRouted="false" />
+        <AssociationConnector Association="Entities.FK_TQS_mxca_Company" ManuallyRouted="false" />
+        <AssociationConnector Association="Entities.FK_TQS_mxcc_Company" ManuallyRouted="false" />
+        <AssociationConnector Association="Entities.FK_TQS_prjp_Company" ManuallyRouted="false" />
+        <AssociationConnector Association="Entities.FK_TQS_work_Company" ManuallyRouted="false" />
+        <AssociationConnector Association="Entities.FK_Unit_Of_Measure_Companies" ManuallyRouted="false" />
+        <AssociationConnector Association="Entities.FK_Users_Companies" ManuallyRouted="false" />
+        <AssociationConnector Association="Entities.FK_VehicleTypes_Companies" ManuallyRouted="false" />
+        <AssociationConnector Association="Entities.FK_ZoneCodes_Companies" ManuallyRouted="false" />
+        <AssociationConnector Association="Entities.FK_CompanyBidStatuses_Statuses" ManuallyRouted="false" />
+        <AssociationConnector Association="Entities.FK_ProjectBidderProducts_CompanyBidStatuses" ManuallyRouted="false" />
+        <AssociationConnector Association="Entities.FK_ProjectProducts_CompanyBidStatuses" ManuallyRouted="false" />
+        <AssociationConnector Association="Entities.FK_Projects_Statuses" ManuallyRouted="false" />
+        <AssociationConnector Association="Entities.FK_CompanyUsers_Users" ManuallyRouted="false" />
+        <AssociationConnector Association="Entities.FK_ProductTemplates_CompanyUsers" ManuallyRouted="false" />
+        <AssociationConnector Association="Entities.FK_CompetitorPlants_Competitors" ManuallyRouted="false" />
+        <AssociationConnector Association="Entities.FK_CompetitorPlants_Divisions" ManuallyRouted="false" />
+        <AssociationConnector Association="Entities.FK_CompetitorPlants_LinesOfBusiness" ManuallyRouted="false" />
+        <AssociationConnector Association="Entities.FK_ProjectProducts_CompetitorPlants" ManuallyRouted="false" />
+        <AssociationConnector Association="Entities.FK_Projects_CompetitorPlants" ManuallyRouted="false" />
+        <AssociationConnector Association="Entities.FK_Competitors_Users" ManuallyRouted="false" />
+        <AssociationConnector Association="Entities.FK_Contact_Prospects" ManuallyRouted="false" />
+        <AssociationConnector Association="Entities.FK_Contact_Users" ManuallyRouted="false" />
+        <AssociationConnector Association="Entities.FK_ContactNotes_Contact" ManuallyRouted="false" />
+        <AssociationConnector Association="Entities.FK_CustomerEvents_Contact" ManuallyRouted="false" />
+        <AssociationConnector Association="Entities.FK_Quote_Contact" ManuallyRouted="false" />
+        <AssociationConnector Association="Entities.FK_SalespersonContacts_Contact" ManuallyRouted="false" />
+        <AssociationConnector Association="Entities.FK_ContactNotes_Users" ManuallyRouted="false" />
+        <AssociationConnector Association="Entities.FK_CustomerEvents_CustomerEventTypes" ManuallyRouted="false" />
+        <AssociationConnector Association="Entities.FK_CustomerEvents_EventFrequence" ManuallyRouted="false" />
+        <AssociationConnector Association="Entities.FK_CustomerEvents_EventStatus" ManuallyRouted="false" />
+        <AssociationConnector Association="Entities.FK_CustomerEvents_Projects" ManuallyRouted="false" />
+        <AssociationConnector Association="Entities.FK_CustomerEvents_Prospects" ManuallyRouted="false" />
+        <AssociationConnector Association="Entities.FK_CustomerEvents_Users" ManuallyRouted="false" />
+        <AssociationConnector Association="Entities.FK_CustomerEvents_Users1" ManuallyRouted="false" />
+        <AssociationConnector Association="Entities.FK_Prospects_CustomerTypes" ManuallyRouted="false" />
+        <AssociationConnector Association="Entities.FK_Plant_Divisions" ManuallyRouted="false" />
+        <AssociationConnector Association="Entities.FK_PlantLinesOfBusiness_LinesOfBusiness" ManuallyRouted="false" />
+        <AssociationConnector Association="Entities.FK_ProductLineLineOfBusiness_LinesOfBusiness" ManuallyRouted="false" />
+        <AssociationConnector Association="Entities.FK_ProjectProducts_LinesOfBusiness" ManuallyRouted="false" />
+        <AssociationConnector Association="Entities.FK_TemplatedProducts_LinesOfBusiness" ManuallyRouted="false" />
+        <AssociationConnector Association="Entities.FK_usersDivisions_Locations_Divisions_Lookup" ManuallyRouted="false" />
+        <AssociationConnector Association="Entities.FK_Logins_Users" ManuallyRouted="false" />
+        <AssociationConnector Association="Entities.FK_ManagersSalesmen_Manager" ManuallyRouted="false" />
+        <AssociationConnector Association="Entities.FK_ManagersSalesmen_Salesman" ManuallyRouted="false" />
+        <AssociationConnector Association="Entities.FK_OrderDetails_Orders" ManuallyRouted="false" />
+        <AssociationConnector Association="Entities.FK_OrderDetails_Product" ManuallyRouted="false" />
+        <AssociationConnector Association="Entities.FK_Orders_Locations" ManuallyRouted="false" />
+        <AssociationConnector Association="Entities.FK_Orders_Projects" ManuallyRouted="false" />
+        <AssociationConnector Association="Entities.FK_Orders_Prospects" ManuallyRouted="false" />
+        <AssociationConnector Association="Entities.FK_Prospects_PaymentTerms" ManuallyRouted="false" />
+        <AssociationConnector Association="Entities.FK_Plant_ProductLines" ManuallyRouted="false" />
+        <AssociationConnector Association="Entities.FK_PlantLinesOfBusiness_Plant" ManuallyRouted="false" />
+        <AssociationConnector Association="Entities.FK_PlantProductPrices_Plant" ManuallyRouted="false" />
+        <AssociationConnector Association="Entities.FK_PlantProducts_Plant" ManuallyRouted="false" />
+        <AssociationConnector Association="Entities.FK_ProjectBidders_Plant" ManuallyRouted="false" />
+        <AssociationConnector Association="Entities.FK_ProjectDistances_Plants" ManuallyRouted="false" />
+        <AssociationConnector Association="Entities.FK_ProjectProducts_Plant" ManuallyRouted="false" />
+        <AssociationConnector Association="Entities.FK_Projects_Plant" ManuallyRouted="false" />
+        <AssociationConnector Association="Entities.FK_SalesPersonRegions_Plant" ManuallyRouted="false" />
+        <AssociationConnector Association="Entities.FK_StandardClauses_Plants" ManuallyRouted="false" />
+        <AssociationConnector Association="Entities.FK_Surcharges_Plants" ManuallyRouted="false" />
+        <AssociationConnector Association="Entities.FK_TemplatedProducts_Plant" ManuallyRouted="false" />
+        <AssociationConnector Association="Entities.FK_PlantProductPrices_Product" ManuallyRouted="false" />
+        <AssociationConnector Association="Entities.FK_PlantProducts_Product" ManuallyRouted="false" />
+        <AssociationConnector Association="Entities.FK_PourSchedule_ProjectProducts" ManuallyRouted="false" />
+        <AssociationConnector Association="Entities.FK_PourSchedule_Projects" ManuallyRouted="false" />
+        <AssociationConnector Association="Entities.FK_ScheduleDetails_PourSchedule" ManuallyRouted="false" />
+        <AssociationConnector Association="Entities.FK_Product_ProductTypes" ManuallyRouted="false" />
+        <AssociationConnector Association="Entities.FK_Product_Unit_Of_Measure" ManuallyRouted="false" />
+        <AssociationConnector Association="Entities.FK_ProjectProducts_Product" ManuallyRouted="false" />
+        <AssociationConnector Association="Entities.FK_ProspectQuantities_Product" ManuallyRouted="false" />
+        <AssociationConnector Association="Entities.FK_StandardClauses_Products" ManuallyRouted="false" />
+        <AssociationConnector Association="Entities.FK_TemplatedProducts_Product" ManuallyRouted="false" />
+        <AssociationConnector Association="Entities.FK_ValueAdd_Product" ManuallyRouted="false" />
+        <AssociationConnector Association="Entities.FK_ProductLineLineOfBusiness_ProductLines" ManuallyRouted="false" />
+        <AssociationConnector Association="Entities.FK_ProductUsage_ProductLines" ManuallyRouted="false" />
+        <AssociationConnector Association="Entities.FK_ProjectBidderCharges_ProductLines" ManuallyRouted="false" />
+        <AssociationConnector Association="Entities.FK_ProjectProducts_ProductLines" ManuallyRouted="false" />
+        <AssociationConnector Association="Entities.FK_PSI_ProductLines" ManuallyRouted="false" />
+        <AssociationConnector Association="Entities.FK_StandardClauses_ProductLines" ManuallyRouted="false" />
+        <AssociationConnector Association="Entities.FK_TemplatedProducts_ProductLines" ManuallyRouted="false" />
+        <AssociationConnector Association="Entities.FK_ValueAdd_ProductLines" ManuallyRouted="false" />
+        <AssociationConnector Association="Entities.FK_TemplatedProducts_ProductTemplates" ManuallyRouted="false" />
+        <AssociationConnector Association="Entities.FK_TemplatedProductTypes_ProductTemplates" ManuallyRouted="false" />
+        <AssociationConnector Association="Entities.FK_ProductTypes_Unit_Of_Measure" ManuallyRouted="false" />
+        <AssociationConnector Association="Entities.FK_ProjectProducts_ProductTypes" ManuallyRouted="false" />
+        <AssociationConnector Association="Entities.FK_TemplatedProducts_ProductTypes" ManuallyRouted="false" />
+        <AssociationConnector Association="Entities.FK_TemplatedProductTypes_ProductTypes" ManuallyRouted="false" />
+        <AssociationConnector Association="Entities.FK_ValueAdd_ProductTypes" ManuallyRouted="false" />
+        <AssociationConnector Association="Entities.FK_ProjectProducts_ProductUsage" ManuallyRouted="false" />
+        <AssociationConnector Association="Entities.FK_StandardClauses_ProductUsages" ManuallyRouted="false" />
+        <AssociationConnector Association="Entities.FK_TemplatedProducts_ProductUsage" ManuallyRouted="false" />
+        <AssociationConnector Association="Entities.FK_TemplatedProductTypes_ProductUsage" ManuallyRouted="false" />
+        <AssociationConnector Association="Entities.FK_ProjectBidderCharges_ProjectBidders" ManuallyRouted="false" />
+        <AssociationConnector Association="Entities.FK_ProjectBidderCharges_ProjectCharges" ManuallyRouted="false" />
+        <AssociationConnector Association="Entities.FK_ProjectBidderNotes_ProjectBidders" ManuallyRouted="false" />
+        <AssociationConnector Association="Entities.FK_ProjectBidderNotes_Users" ManuallyRouted="false" />
+        <AssociationConnector Association="Entities.FK_ProjectBidderProducts_Bidders" ManuallyRouted="false" />
+        <AssociationConnector Association="Entities.FK_ProjectBidderProducts_ProjectProducts" ManuallyRouted="false" />
+        <AssociationConnector Association="Entities.FK_ProjectBidders_MinLoadCharges" ManuallyRouted="false" />
+        <AssociationConnector Association="Entities.FK_ProjectBidders_ProjectBidderProductStatuses" ManuallyRouted="false" />
+        <AssociationConnector Association="Entities.FK_ProjectBidders_Projects" ManuallyRouted="false" />
+        <AssociationConnector Association="Entities.FK_ProjectBidders_Prospects" ManuallyRouted="false" />
+        <AssociationConnector Association="Entities.FK_ProjectBidders_SeasonalCharges" ManuallyRouted="false" />
+        <AssociationConnector Association="Entities.FK_ProjectBidders_SundryCharges" ManuallyRouted="false" />
+        <AssociationConnector Association="Entities.FK_ProjectBidders_UnloadCharges" ManuallyRouted="false" />
+        <AssociationConnector Association="Entities.FK_Quote_ProjectBidders" ManuallyRouted="false" />
+        <AssociationConnector Association="Entities.FK_ProjectCharges_ProjectChargetypes" ManuallyRouted="false" />
+        <AssociationConnector Association="Entities.FK_ProjectDistances_Projects" ManuallyRouted="false" />
+        <AssociationConnector Association="Entities.FK_ProjectHistorySummary_Prospects" ManuallyRouted="false" />
+        <AssociationConnector Association="Entities.FK_ProjectNotes_Projects" ManuallyRouted="false" />
+        <AssociationConnector Association="Entities.FK_ProjectNotes_Users" ManuallyRouted="false" />
+        <AssociationConnector Association="Entities.FK_ProjectProducts_Projects" ManuallyRouted="false" />
+        <AssociationConnector Association="Entities.FK_ProjectProducts_Unit_Of_Measure" ManuallyRouted="false" />
+        <AssociationConnector Association="Entities.FK_QuoteDetails_ProjectProducts" ManuallyRouted="false" />
+        <AssociationConnector Association="Entities.FK_Schedules_ProjectProducts" ManuallyRouted="false" />
+        <AssociationConnector Association="Entities.FK_Projects_ProjectTypes" ManuallyRouted="false" />
+        <AssociationConnector Association="Entities.FK_Projects_Sources" ManuallyRouted="false" />
+        <AssociationConnector Association="Entities.FK_Projects_Users" ManuallyRouted="false" />
+        <AssociationConnector Association="Entities.FK_Projects_Users1" ManuallyRouted="false" />
+        <AssociationConnector Association="Entities.FK_Projects_ZoneCodes" ManuallyRouted="false" />
+        <AssociationConnector Association="Entities.FK_Prospects_ProjectTypes" ManuallyRouted="false" />
+        <AssociationConnector Association="Entities.FK_ProspectNotes_Prospects" ManuallyRouted="false" />
+        <AssociationConnector Association="Entities.FK_ProspectNotes_Users" ManuallyRouted="false" />
+        <AssociationConnector Association="Entities.FK_ProspectQuantities_Prospects" ManuallyRouted="false" />
+        <AssociationConnector Association="Entities.FK_ProspectRegions_Prospects" ManuallyRouted="false" />
+        <AssociationConnector Association="Entities.FK_Prospects_Users" ManuallyRouted="false" />
+        <AssociationConnector Association="Entities.FK_QuoteDetails_Quote" ManuallyRouted="false" />
+        <AssociationConnector Association="Entities.FK_Quote_QuoteTypes" ManuallyRouted="false" />
+        <AssociationConnector Association="Entities.FK_Quotes_QuoteStatuses" ManuallyRouted="false" />
+        <AssociationConnector Association="Entities.FK_Quotes_Salesperson" ManuallyRouted="false" />
+        <AssociationConnector Association="Entities.FK_Quotes_Terms_Discount" ManuallyRouted="false" />
+        <AssociationConnector Association="Entities.FK_Quotes_Users" ManuallyRouted="false" />
+        <AssociationConnector Association="Entities.FK_QuoteStandardClauses_Quotes" ManuallyRouted="false" />
+        <AssociationConnector Association="Entities.FK_Table_1_Quotes" ManuallyRouted="false" />
+        <AssociationConnector Association="Entities.FK_QuoteStandardClauses_StandardClauses" ManuallyRouted="false" />
+        <AssociationConnector Association="Entities.FK_Table_1_Surcharges" ManuallyRouted="false" />
+        <AssociationConnector Association="Entities.FK_UserRoles_Roles" ManuallyRouted="false" />
+        <AssociationConnector Association="Entities.FK_SalespersonContacts_Users" ManuallyRouted="false" />
+        <AssociationConnector Association="Entities.FK_SalesPersonRegions_Users" ManuallyRouted="false" />
+        <AssociationConnector Association="Entities.FK_ScheduleItems_Schedules" ManuallyRouted="false" />
+        <AssociationConnector Association="Entities.FK_QuoteSurcharges_Unit_Of_Measure" ManuallyRouted="false" />
+        <AssociationConnector Association="Entities.FK_TemplatedProducts_Unit_Of_Measure" ManuallyRouted="false" />
+        <AssociationConnector Association="Entities.FK_UserRoles_Users" ManuallyRouted="false" />
+        <AssociationConnector Association="Entities.FK_usersDivisions_Users" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
